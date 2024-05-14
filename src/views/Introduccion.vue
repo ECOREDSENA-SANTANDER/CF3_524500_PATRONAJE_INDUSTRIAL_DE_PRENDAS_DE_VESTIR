@@ -3,28 +3,20 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.justify-content-center.mb-5
+      .colsm-12.col-lg-9
+        p.mb-5 La transición y globalización en el sector moda exige cada vez más calidad en el desarrollo de las prendas de vestir, unificando parámetros o estándares de calidad en los productos, buscando que cada proceso cumpla con los requerimientos establecidos, con el fin de minimizar el error y ser capaces de satisfacer las necesidades de los consumidores.
+        .cajon.color-acento-contenido.p-4.mb-4
+          p.fw-bold Actualmente, en el sector confección, diseño y moda se está haciendo la transición a nivel país en la preparación y capacitación de mano de obra calificada, a la vez que se implementa tecnología versátil que aporta al estándar competitivo internacional, de manera que se logre dar una respuesta rápida y eficaz a las exigencias del mercado; en este aspecto, el patronista juega un papel fundamental, pues debe estar preparado para cumplir a cabalidad con los procesos de producción o prototipado.
+      .colsm-12.col-lg-3
+        img(src='@/assets/curso/temas/introduccion/img_1.png', alt='')
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
-
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
-
 </template>
 
 <script>

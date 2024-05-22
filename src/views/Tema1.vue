@@ -51,7 +51,7 @@
 
     
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_2.titulo-segundo.color-primario
       h2 1.2 Implementación de básico superior – Desarrollo de prendas superiores
 
     #7.subtitulo.mb-4(data-aos="fade")
@@ -156,7 +156,7 @@
       figcaption Video: Leyenda del video
     
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_3.titulo-segundo.color-primario
       h2 1.3 Trazo de cabezas mangas – Análisis de manga
     
     p Cuando se habla de manga, básicamente se entiende o se identifica como una pieza circular que cubre el brazo; sin embargo, existen diferentes tipos de puntos a tener en cuenta:
@@ -249,7 +249,7 @@
       .col-md-4.mb-3.mb-md-0.p-4
         img(src='@/assets/curso/temas/tema1/img20.svg', alt='La imagen muestra un diagrama de medidas para mangas de prendas. Hay una regla vertical en el centro que indica el “largo de manga”. Diferentes líneas de colores convergen hacia la regla desde la izquierda y la derecha, marcando distintas longitudes para el largo de manga con medidas específicas como “5 cm” y “3 cm” sobre las líneas. Dos letras “D” y “P” están colocadas a los lados de la regla, posiblemente representando diferentes tipos de mangas o medidas estándar. En la parte inferior, hay una indicación de “1/2 Cont. puño” y “1/2 Cont. sisa”, refiriéndose a la mitad del contorno del puño y la sisa respectivamente. Esto sugiere que el diagrama es una guía para trazar el patrón de una manga, indicando cómo varía el largo dependiendo de la medida del puño y la sisa. ')  
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_3_1.titulo-segundo.color-primario
       h2 1.3.1 Modificaciones de manga
     
     p Al tomar como punto de partida el trazo de manga base, el cual corresponde al tipo de prenda con el análisis de cabeza de manga, se trabajan modificaciones por largo.
@@ -283,7 +283,7 @@
       figcaption Video: Leyenda del video
     
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_4.titulo-segundo.color-primario
       h2 1.4 Trazo de cuellos – Generalidades y comportamientos
     
     .row.justify-content-center(data-aos="fade-left")
@@ -331,7 +331,7 @@
     
     
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_5.titulo-segundo.color-primario
       h2 1.5 Despiece de planos
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-12
@@ -366,25 +366,190 @@
           .col-md-6.mb-3.mb-md-0.p-4
             img(src='@/assets/curso/temas/tema1/img32.svg', alt='') 
           .py-4
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-8.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img33.png', alt='') 
+          .py-4
+    .py-4
+    ul.lista-ul--color.lista-ul--separador 
+      li 
+        i.fas.fa-circle 
+        span.txtlila #[b Señalización:]
+        | la señalización del plano y el molde debe ir de acuerdo con las especificaciones de diseño; la señalización incluye nombre del diseño o referencia, el hilo de tela, piquetes, bolsillos, nombre de la pieza, cantidad a cortar; la señalización es la lectura a nivel general del molde.
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema1/img34.svg', alt='')
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
+    .py-2
+    p Se debe tener en cuenta que las medidas implementadas o referenciadas en los videos son solo ejemplos y guías, #[b cada plano o cada uno tendrá referencias diferentes, esto depende del tipo de trazo, de elementos o incluso del tipo de lápiz que se trabaje], lo importante es siempre referenciar las medidas del cuadro de tallas y las fórmulas referenciadas.
+    
+    Separador  
+    #t_1_6.titulo-segundo.color-primario
+      h2 1.6 Trazo de prendas superiores
+
+    .bglila.p-4
+      .row.justify-content-center.align-items-center(data-aos="fade-left")
+        .col-lg-5
+          SlyderA(tipo="a")
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img35.png', alt='') 
+              .py-4
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img36.png', alt='') 
+              .py-4
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img37.png', alt='') 
+              .py-4
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img38.png', alt='') 
+              .py-4
+        .col-lg-7.py-4
+          p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando.
+          p #[b En las prendas de la línea infantil existe gran variedad en los diseños, algunos conforme a la evolución de los años se mantienen] y son especiales de un género como es el caso del vestido, prenda para niñas; pero conforme a los cambios sociales se presentan prendas unisex, por lo cual cambia el uso, y a su vez incide en el desarrollo del patronaje. Para el trazo de prendas superiores infantiles se debe analizar aspectos como el confort a generar y el nivel de protección, contemplando la necesidad de aplicar largos, desahogos, cuellos o escotes y sistemas de cierre acordes para cubrir dichas necesidades.
+          p Para el desarrollo del trazo de prendas superiores se trabajarán tres imágenes de referencia, en las cuales podrá identificar dos prendas para niña y una prenda para niño, la finalidad del ejercicio es poder comparar de qué manera se puede implementar el básico, llevándolo hacia cualquier tipo de prenda.
+
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
 
     Separador  
-    #t_1_1.titulo-segundo.color-primario
-      h2 1.6 Trazo de prendas superiores
-    Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_7.titulo-segundo.color-primario
       h2 1.7 Trazo de prendas inferiores – faldas
+    
+    .bgamarillo2.p-4
+      .row.justify-content-center.align-items-center(data-aos="fade-left")
+        .col-lg-7.py-4
+          p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando.
+          p Para el desarrollo del trazo de prendas inferiores - falda #[b se trabajarán tres imágenes de referencia, sobre estas imágenes se identifican diferentes tipos de pretinas, vuelos y amplitudes.] Asimismo tener en cuenta complementos como bolsillos, tapas y el sistema de cierre adecuado para cumplir su función, sin generar dificultades en el uso por parte del infante.
+        
+        .col-lg-5
+          SlyderA(tipo="a")
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img39.png', alt='') 
+              .py-4
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img40.png', alt='') 
+              .py-4
+            .row.justify-content-center(data-aos="fade-left")
+              .col-md-10.mb-3.mb-md-0.p-4
+                img(src='@/assets/curso/temas/tema1/img41.png', alt='') 
+              .py-4
+    .py-4
+    ul.lista-ul--color.lista-ul--separador 
+      li 
+        i.fas.fa-circle 
+        span.txtlila #[b Pretina anatómica]
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema1/img42.svg', alt='')
+    .py-4
+    ul.lista-ul--color.lista-ul--separador 
+      li 
+        i.fas.fa-circle 
+        span.txtlila #[b Pretina recta]
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema1/img43.svg', alt='')
+
+    p.py-4 A continuación, se presenta el video Trazo de prendas inferiores, con el cual podrá realizar el patronaje de este tipo de prenda.
+    .py-2
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
+    
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_8.titulo-segundo.color-primario
       h2 1.8 Trazo de prendas inferiores – pantalón
+
+    p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando. #[b Para el desarrollo del trazo de prendas inferiores - pantalón se trabajarán dos imágenes de referencia, una bajo los requerimientos de un niño y otra bajo los requerimientos de una niña], partiendo desde el mismo básico.
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema1/img44.svg', alt='')
+    p.py-4 Dentro del desarrollo de pantalón se encontrarán especificaciones como partes que conforman un bolsillo, como:
+    .py-2
+  
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-7
+        ul.lista-ul--color.lista-ul--separador 
+          li 
+            i.fas.fa-circle 
+            span.txtlila #[b Aletilla y aletillón]
+        p El sistema de ajuste en los pantalones infantiles más recomendado es el encauchado, #[b se emplea en pretinas y botas], en el caso de pretinas puede aplicarse en todo el contorno de la cintura, en el posterior o solo en los costados, generando seguridad; pero se debe tener en cuenta que se equilibre con el confort y facilite  gran movilidad del usuario, por tanto, que no genere incomodidad o afecte la piel del infante.
+        img(src='@/assets/curso/temas/tema1/img45.svg', alt='')
+      .col-lg-5
+        img(src='@/assets/curso/temas/tema1/img46.svg', alt='')
+
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
+    
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_9.titulo-segundo.color-primario
       h2 1.9 Trazo de prendas – overol
+
+    p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando. Para el desarrollo del trazo de prendas inferiores - pantalón se trabajarán dos imágenes de referencia, una bajo los requerimientos de una niña y otra bajo los requerimientos de un niño, partiendo desde el mismo básico. Este tipo de prenda en los infantes puede aplicarse no solo en uso casual, también se desarrollan en prendas para dormir.
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema1/img46.png', alt='')
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema1/img47.png', alt='')
+    
+    .py-4
+    .row.justify-content-center(data-aos="fade-left").py-4
+      .col-lg-8
+        p Especialmente en prendas de este tipo, durante el desarrollo del patronaje acorde al diseño, la selección cuidadosa de los insumos es crucial. Elementos como botones, cierres, hebillas o broches no solo aseguran la prenda, sino que también facilitan su colocación. Esta elección influye significativamente en el planteamiento del patronaje.
+        p En el proceso de elaboración de los patrones, se incorporarán elementos como la horcajadura, que proporciona la holgura necesaria al unir los básicos superiores e inferiores. Esta adición de espacio es funcional, es decir, es esencial para que la prenda se ajuste al cuerpo sin inconvenientes y cumpla su función adecuadamente.
+        p Es importante tener en cuenta que en el ámbito comercial se emplean diversos términos para describir los detalles y complementos de las prendas. Sin embargo, en este caso nos centraremos en aspectos funcionales sin entrar en especificaciones de nombres comerciales.
+        p Debe tener en cuenta que a nivel comercial #[b existen diversos nombres para cada uno de los detalles y complementos de las prendas;] sin embargo, en este caso se trabajará desde la parte funcional sin especificar los nombres comerciales.
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema1/img48.svg', alt='')
+    
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
+    
     Separador  
-    #t_1_1.titulo-segundo.color-primario
+    #t_1_10.titulo-segundo.color-primario
       h2 1.10 Trazo de prendas – bata o vestido
-      
- 
- 
+    
+    p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando. Para el desarrollo del trazo de prendas superiores – #[b vestido o bata se trabajará un dibujo plano de referencia, bajo los requerimientos de una niña], partiendo desde el básico.
+    .py-4
+    .row.justify-content-center(data-aos="fade-left").py-4
+      .col-lg-1
+        img(src='@/assets/curso/temas/tema1/img49.svg', alt='')
+      .col-lg-10
+        p El vestido infantil #[b se caracteriza por los vuelos, recogidos y prenses] que contemplan en los diseños, así mismo, la #[b aplicación de complementos como golas y el uso de insumos como encajes, cintas, además de sistemas de ajuste] como encauchados. Por otra parte, han ido adoptando características de prendas femeninas para producir el mismo vestido para ambas líneas, lo cual es importante considerar en el momento del desarrollo del patronaje.
+      .col-lg-6
+        img.py-2(src='@/assets/curso/temas/tema1/img50.png', alt='La imagen describe el dibujo técnico de un vestido sin mangas visto desde el frente y la espalda. El diseño incluye un cuello redondo y un corpiño ajustado que se ensancha hacia la falda con pliegues o paneles para darle vuelo. En la parte trasera, se observa una línea central que probablemente indica la posición de una cremallera o cierre. Este tipo de dibujo es típico en la industria de la moda para ilustrar la estructura y los detalles de una prenda antes de confeccionarla. ')
+    p Para el desarrollo del trazo de la prenda se harán todos los pasos del patronaje mencionados al inicio, con el fin de validar y confrontar dudas en los conocimientos adquiridos.
+    p En este trazo usted partirá de los básicos, pasando por el análisis del diseño, interpretación y trazo del plano, complementos y despiece.
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video 
+
+
+
+
 </template>
 
 <script>

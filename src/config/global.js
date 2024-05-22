@@ -20,56 +20,72 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        titulo: 'Control de calidad',
+        titulo: 'Patronaje básico de línea infantil',
         numero: '1',
         nombreRuta: 'tema1',
         desarrolloContenidos: true,
         subMenu: [
           {
-            titulo: 'Concepto de calidad',
+            titulo: 'Cómo hacer un patrón a escala',
             nombreRuta: 'tema1',
             numero: '1.1',
           },
           {
             numero: '1.2',
-            titulo: ' Gestión de calidad total',
+            titulo:
+              'Implementación de básico superior – Desarrollo de prendas superiores',
             nombreRuta: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: ' Puntos de control en el proceso de confección',
+            titulo: 'Trazo de cabezas mangas – Análisis de manga',
             nombreRuta: 't_1_3',
           },
           {
+            numero: '1.3.1',
+            titulo: 'Modificaciones de manga',
+            nombreRuta: 't_1_3_1',
+          },
+          {
             numero: '1.4',
-            titulo: ' Control de calidad en patronaje',
+            titulo: 'Trazo de cuellos – Generalidades y comportamientos',
             nombreRuta: 't_1_4',
           },
           {
             numero: '1.5',
-            titulo: ' Control de calidad en trazo y corte',
+            titulo: 'Despiece de planos',
             nombreRuta: 't_1_5',
           },
           {
             numero: '1.6',
-            titulo: ' Control de calidad en confección',
+            titulo: 'Trazo de prendas superiores',
             nombreRuta: 't_1_6',
           },
           {
             numero: '1.7',
-            titulo: ' Control de calidad en terminados',
+            titulo: 'Trazo de prendas inferiores – faldas',
             nombreRuta: 't_1_7',
           },
           {
             numero: '1.8',
-            titulo: ' Control de calidad en insumos, materiales y textiles',
+            titulo: 'Trazo de prendas inferiores – pantalón',
             nombreRuta: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Trazo de prendas – overol',
+            nombreRuta: 't_1_9',
+          },
+          {
+            numero: '1.10',
+            titulo: 'Trazo de prendas – bata o vestido',
+            nombreRuta: 't_1_10',
           },
         ],
       },
 
       {
-        titulo: 'Elaboración de prototipos en tejido de punto',
+        titulo: 'Patronaje básico línea masculina',
         nombreRuta: 'tema2',
         numero: '2',
         desarrolloContenidos: true,

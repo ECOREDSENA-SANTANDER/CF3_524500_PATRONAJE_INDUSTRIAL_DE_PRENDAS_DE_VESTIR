@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Requerimientos técnicos y prototipos',
+    componenteFormativo: 'Patronaje Básico',
     descripcionCurso:
-      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente formativo se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos. ',
+      'El presente componente aborda el desarrollo y la elaboración de moldes desde la implementación de los básicos en las diferentes líneas, el análisis de cada una de las partes que compone una prenda, pasados a planos técnicos con medidas y formas correspondientes a cada estructura.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },

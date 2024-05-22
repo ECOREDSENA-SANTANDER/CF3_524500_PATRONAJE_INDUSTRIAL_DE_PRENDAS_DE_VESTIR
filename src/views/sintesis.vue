@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La imagen muestra un diagrama con múltiples nodos conectados, centrado en el tema del “Patronaje Básico”. Este nodo principal se conecta a varias categorías relacionadas con la confección y el diseño de ropa. A su alrededor, se ramifican nodos específicos para diferentes líneas y tipos de prendas: Línea Masculina: Incluye nodos para “Base Sastre”, “Jean Slim Fit”, “Pantalón Clásico” y “Camisa Clásica”. Línea Femenina: Conecta con “Chaquetas y Vestidos” y “Faldas y Overoles”. Línea Infantil: Se desglosa en “Patrón a Escala”, “Prendas Superiores”, “Overol” y “Prendas Inferiores”. También aparece un nodo para “Pinza Correctiva”, lo que sugiere ajustes y modificaciones en el diseño para un mejor ajuste. El diagrama sirve para visualizar cómo se estructura el patronaje en diferentes categorías y cómo se interrelacionan entre sí dentro del ámbito del diseño de moda, posiblemente utilizado como herramienta educativa o de planificación en el diseño de vestuario.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -3,814 +3,278 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
+      h1 Patronaje básico 
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        p Para comenzar con el trazado de patrones desde los básicos en prendas inferiores, es crucial establecer la línea de aplomo o línea base de construcción, que se corresponde con la altura de cadera o tiro. Del mismo modo, al trazar patrones desde los básicos en prendas superiores, la línea de aplomo o línea base de construcción se sitúa en la línea de sisa o la altura de cadera.
+        p Es importante tener en cuenta que las medidas presentadas en los videos son ejemplos y orientaciones únicamente. Cada diseñador puede tener referencias distintas, dependiendo del tipo de trazado, elementos utilizados e incluso del tipo de herramienta de dibujo. Sin embargo, siempre es fundamental hacer referencia a las medidas del cuadro de tallas y a las fórmulas pertinentes.
+        p Es esencial también reconocer que en el ámbito comercial se utilizan diversos nombres para describir las siluetas y formas de las prendas. No obstante, en este proceso de aprendizaje nos enfocaremos en aspectos funcionales sin entrar en especificaciones de nombres comerciales.
+      .col-sm-12.col-lg-3
+        img(src='@/assets/curso/temas/tema1/img01.svg', alt='')
+    
+    .cajon.color-acento-contenido.p-4.mb-5
+      .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+        .col-lg-1.p-2
+          img(src='@/assets/curso/temas/tema1/img02.svg', alt='')
+        .col-lg-11
+          p Al tener en cuenta los términos de los estudiosos se puede determinar que satisfacción, cliente, necesidades, mercado y expectativas son las palabras comunes que engloban el concepto para concluir que la calidad es el nivel de satisfacción del cliente, cumpliendo con los requisitos, es decir, con las necesidades y expectativas del cliente.
+    
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Control de calidad
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_1.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 Con el crecimiento de la industrialización se requería ejercer control en los procesos para disminuir los desperdicios y los reprocesos en la producción, cada vez con niveles de unidades más altas, necesitando estandarizar las características del producto fabricado.
-            p.mb-0 A partir de lo mencionado, revisar la producción proporciona una mayor confianza por parte del cliente, mejora la competitividad y sirve como una herramienta en la administración de la empresa.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-6
-        p Es importante mencionar los principios de calidad para el control de la misma:
+      h1 Patronaje básico de línea infantil
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-5
-        img(src='@/assets/curso/temas/tema1/img_2.svg', alt='')
-      .col-sm-12.col-lg-5
-        ul.lista-ul--color
-          li.color-primario
-            i.fas.fa-plus
-            | Mejora continua
-          li.color-primario
-            i.fas.fa-plus
-            | Evitar inspecciones masivas
-          li.color-primario
-            i.fas.fa-plus
-            | Relación de precio y calidad
-          li.color-primario
-            i.fas.fa-plus
-            | Métodos modernos de capacitación y entrenamiento
-          li.color-primario
-            i.fas.fa-plus
-            | Exigencia de la competitividad
-          li.color-primario
-            i.fas.fa-plus
-            | Identificación del trabajador con sus funciones y su aporte a la calidad
-          li.color-primario
-            i.fas.fa-plus
-            | Eliminación de barreras entre áreas
-          li.color-primario
-            i.fas.fa-plus
-            | Establecer ruta de calidad
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-7
-        p Acciones que permiten encaminar la empresa hacia el proceso de control de calidad.
+    .row.justify-content-center(data-aos="zoom-in-rigth")
+      p Para la implementación y modificación de básicos es importante tener claridad de cada uno de los conceptos de patronaje como medidas, pasos, elementos y vocabulario técnico, lo cual se irá implementando en el desarrollo de los trazos, moldes o planos, lo que a futuro permitirá realizar patrones y producción de prendas de vestir.
+      p En este punto, para la implementación de los básicos se debe tomar como referencia los pasos del patronaje de acuerdo con la metodología SENA.
+    .row.justify-content-center(data-aos="zoom-in-rigth")
+      img(src='@/assets/curso/temas/tema1/img03.svg', alt='')
 
     Separador  
     #t_1_1.titulo-segundo.color-primario
-      h2 1.1 Concepto de calidad
-    p.mb-5 Existen varias definiciones, y cada persona puede determinar un concepto propio, además de tener en cuenta las definiciones de los estudiosos en el tema, entre los cuales se encuentran:
-    LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+      h2 1.1 Cómo hacer un patrón a escala
+    
+    .row.justify-content-center(data-aos="zoom-in-left")
+      p En términos de patronaje se puede trabajar a menor escala, cuando se habla de escala consiste en tomar un molde de cualquier línea y trazarlo en un tamaño menor o mayor, en este caso para la optimización de recursos se sugiere trabajar en escalas más pequeñas, si bien cuando se inicia a trabajar o se está teniendo una inmersión en patronaje se sugiere trabajar a escala real, en algunos casos por optimización se facilita trabajar en tamaños más pequeños; sin embargo, es importante aclarar que lo ideal o la sugerencia siempre será trabajar a escala real.
+    
     .cajon.color-acento-contenido.p-4.mb-5
-        p.mb-0.fw-bold Al tener en cuenta los términos de los estudiosos se puede determinar que satisfacción, cliente, necesidades, mercado y expectativas son las palabras comunes que engloban el concepto para concluir que la calidad es el nivel de satisfacción del cliente, cumpliendo con los requisitos, es decir, con las necesidades y expectativas del cliente.
-    h3.titulo-tercero Concepto control de calidad
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        p.mb-4 Una vez se tienen definidos los objetivos y los requisitos de calidad del producto se deben controlar las variaciones de esas características, cualidades o especificaciones exigidas por el cliente o de acuerdo con la norma.
-        p.mb-4 Mejor llamado como control estadístico de la calidad es el proceso conformado por una serie de técnicas para analizar el comportamiento de las variaciones de los requisitos del producto, con el fin de establecer acciones que mejoren su calidad, en pro de aumentar las ventas y la productividad de la empresa.
-        .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0.fw-bold El control de calidad no solo está encaminado a las inspecciones del producto terminado, también es importante realizar las inspecciones del producto durante el proceso de producción.
-      .col-sm-12.col-lg-3
-        img(src='@/assets/curso/temas/tema1/img_8.png', alt='')
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-3
-        p.mb-3 El cliente es la persona que adquiere el producto o servicio, puede o no utilizarlo y es quien paga por ello.
-        ul.lista-ul--color
-          li.color-primario
-            i.fas.fa-plus
-            | #[b Interno:] trabajador.
-          li.color-primario
-            i.fas.fa-plus
-            | #[b Externo:] recibe el producto. Tener en cuenta que quien lo usa es el consumidor del mismo.
-      .col-sm-12.col-lg-3
-        img(src='@/assets/curso/temas/tema1/img_9.svg', alt='')
+      .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+        .col-lg-1
+          img(src='@/assets/curso/temas/tema1/img04.svg', alt='')
+        .col-lg-9
+          p Las escalas más comunes en patronaje son a mitad (1/2) de escala o cuarto (1/4) de escala, en el mercado se encuentran juegos de reglas con el tamaño o las escalas referenciadas; pero, no solo se puede trabajar en esas dos escalas, es decir, en algunos casos se trabaja a quinta (1/5) o a sexta (1/6) escala.
 
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/curso/temas/tema1/img_10.svg")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0.fw-bold ¿Qué es un requisito?
-                  p Es la traducción de las necesidades y expectativas del cliente y se presenta en tres niveles:
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+
+    
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.2 Implementación de básico superior – Desarrollo de prendas superiores
+
+    #7.subtitulo.mb-4(data-aos="fade")
+      h3.mb-0 1. Básicos:
+
+    p En primera instancia se debe contemplar tener la base o los básicos con los que se va a trabajar, partiendo de que los básicos se dividen en:
+    
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+      .col-lg-7
+        h3 Base superior – Base inferior de falda y pantalón
+        p En la metodología SENA estos son los únicos puntos de partida para hacer cualquier análisis, trazo, molde o plano de una prenda. Los básicos deben estar separados (delantero – posterior) y sin ningún tipo de alteración, preferiblemente en un material resistente como el cartón cartulina, cartulina o acetato.
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema1/img05.svg', alt='')
+
+    #7.subtitulo.mb-4(data-aos="fade")
+      h3.mb-0 2. Interpretación:
+    p Para la interpretación se deben tener en cuenta varios puntos de referencia:
+
+    .bgazul 
+      SlyderA(tipo="a")
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            p #[b Desahogos:]  Los desahogos se trabajan por contornos, largos y anchos. Las medidas anatómicas corresponden a la base o básico, este punto de partida no tiene incrementos u holguras para el desarrollo de prendas, es decir, que dependiendo de la funcionabilidad de la prenda o del diseño se debe incrementar medidas que funcionan como holguras o desahogos. 
+          .col-md-4.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img06.svg', alt='La imagen muestra dos diagramas de una figura humana estilizada para ilustrar las medidas de un patrón de costura. A la izquierda, la figura se ve de frente, y a la derecha, se ve de espaldas. Sobre ambas figuras hay líneas y texto que indican puntos específicos para tomar medidas, como “Distancia Busto”, “Ancho de Hombro”, “Base Busto” y “Cintura”. En la parte inferior hay un diagrama circular con la leyenda “Contorno de Pecho Medida anatómica”, señalando la forma de medir el contorno del pecho, con flechas que apuntan hacia “Delantero” y “Posterior”.')
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            p #[b Desahogo por contorno:]  Los desahogos por contorno corresponden a todo incremento de medidas que se den por contorno de pecho, contorno de cintura y contorno de cadera, únicamente se referencian estos 3 contornos porque son los que abrazan o conforman los contornos más protuberantes del cuerpo. En las prendas superiores, el desahogo se trabaja a partir del contorno de pecho, es decir, en plano sobre línea de profundidad de sisa. 
+          .col-md-4.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img07.svg', alt='La imagen muestra dos figuras humanas estilizadas con marcas de medidas para patrones de costura. La figura de la izquierda representa la vista frontal y la de la derecha la vista trasera. Las líneas marcadas en las figuras indican puntos de medida como “Base Busto” y “Línea de Prof. de Busto”. En la parte inferior, hay un diagrama circular etiquetado “Contorno de Pecho Medida anatómica” y una nota que dice “Deshago por contorno” y “Aumento, holgura o incremento de Medida anatómica”, que parecen referirse a los ajustes que se hacen en la tela para asegurar un buen ajuste.') 
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            p #[b Desahogo por largo:] los desahogos por largos corresponden a:
+              p Largo de la prenda, en la metodología SENA, los largos de las prendas se trabajan siempre por costado, tomando como referencia el punto de cintura costado, esto es, si se va a trabajar el largo de un vestido, el largo se define desde el punto de cintura costado hacia las extremidades inferiores; debido a la toma de medidas y a las referencias anatómicas del cuadro de tallas. 
+          .col-md-7.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img08.svg', alt='La imagen muestra dos figuras humanas estilizadas, una de frente y otra de espalda, utilizadas para ilustrar la toma de medidas en el diseño de patrones de costura. Hay líneas y textos específicos que indican distintos puntos de medida en el torso, como “Línea de Prof. de sisa”, “Busto Delantero Inferior 1/4” y “Busto Posterior Inferior 1/4”. En la parte inferior de la figura frontal, hay un área sombreada en rosa con la leyenda “Deshago por contorno”, que indica dónde se permite extra espacio o holgura en el patrón para un ajuste adecuado.')
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            .py-4
+            p #[b Desahogo por largo:] los desahogos por largos corresponden a:
+              p Desahogo por línea de profundidad de sisa o por sisa, estos desahogos corresponden a la holgura que se debe trabajar por cavidad axilar, es decir, al dar o asignar holgura por contorno, el desahogo o la holgura por sisa debe ser proporcional. (Siempre el punto de referencia para la asignación de desahogos corresponde al desahogo por contorno)
+          .col-md-4.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img09.svg', alt='La imagen muestra dos figuras humanas estilizadas para indicar medidas en el diseño de patrones de costura, una de frente y otra de espalda. Las figuras están marcadas con líneas que señalan puntos de medida específicos como “Línea de Prof. de sisa” y “Busto Inferior 1/4”. En la figura de frente, una sección sombreada en rosa cruza el torso horizontalmente, con la etiqueta “Deshago por largo”. En la parte inferior, hay un diagrama circular dividido en dos mitades etiquetadas como “Delantero” y “Posterior”, con notas que explican “Deshago por Largo”, refiriéndose al espacio adicional en longitud que se puede agregar, y una nota que indica que este es un aumento, holgura o incremento que se toma aparte del deshago por contorno. ')
+          .py-4
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+              p #[b Desahogo por ancho:]  Los desahogos corresponden a:
+                p #[b Desahogo por hombro:] los desahogos suelen ser incrementos que van o corresponden a la misma proporción de la holgura inicial, es decir, los desahogos por hombro corresponden al incremento que se aplica al desahogo por contorno.
+          .col-md-4.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img10.svg', alt='La imagen muestra dos figuras estilizadas, una de frente y otra de espalda, ambas marcadas con líneas y textos que sirven para la toma de medidas en patrones de costura. Las líneas indican puntos como “Línea de Prof. de sisa” y “Busto Inferior 1/4”. En la figura frontal, una sección sombreada de rosa indica “Deshago por ancho”. Abajo, un diagrama circular dividido en “Delantero” y “Posterior” lleva las inscripciones “Deshago por Ancho” y “Deshago por Largo”, refiriéndose a la holgura adicional que se puede agregar en estas dimensiones, y aclara que el aumento se toma proporcional al deshago por largo.')
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            .py-4
+              p #[b Sistema de ajuste:] son todos los ajustes (pinza o corte) que se le dan a la prenda, en este caso para una prenda infantil no se trabajará o enfocará a sistemas de ajuste, los sistemas de ajuste se trabajarán en la línea femenina, para tener una mejor comprensión y aprovechamiento de las pinzas. 
+          .col-md-3.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img11.svg', alt='La imagen muestra dos figuras humanas estilizadas, una de frente y otra de espalda, usadas para indicar medidas de patrones de costura. Las líneas y textos marcan puntos específicos como “Línea de Prof. de sisa” y “Busto Inferior 1/4”. La figura frontal tiene una sección sombreada en rosa que indica “Deshago por ancho”. Abajo hay un diagrama circular etiquetado “Deshago por Ancho”, que separa las zonas “Delantero” y “Posterior”, y una explicación de que este deshago por ancho es un aumento o holgura que se toma proporcional al deshago por largo.')
+          p.text-center Los escotes también se modifican y pueden entrar dentro de la categorización de un desahogo; sin embargo, manejan una terminología y explicación diferente.
+          .py-4
+        
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            p #[b Sistema de ajuste:] son todos los ajustes (pinza o corte) que se le dan a la prenda, en este caso para una prenda infantil no se trabajará o enfocará a sistemas de ajuste, los sistemas de ajuste se trabajarán en la línea femenina, para tener una mejor comprensión y aprovechamiento de las pinzas. 
+          .col-md-7.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img12.svg', alt='La imagen muestra dos figuras humanas estilizadas, una de frente y otra de espalda, con líneas y textos indicando medidas para patrones de costura. En ambas figuras se señalan la “Línea de Prof. de sisa”, y se marcan las áreas de “Delantero Inferior 1/6” en la figura frontal y “Base Posterior Inferior 1/6” en la figura trasera. Un área sombreada en rosa en la figura frontal lleva la inscripción “Sistema de cierre”, sugiriendo la ubicación del cierre en la prenda.')
+        
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-10
+            p #[b Sistema de cierre:]  este punto es lo que permite que la prenda sea funcional, es decir, es lo que hace que la prenda abra o cierre según la tridimensión del cuerpo, en sistemas de cierre aplican: cremalleras, botones, broches, gafetes, acordonados, encauchados y demás, se debe tener en cuenta que cada uno de los sistemas de cierre tienen especificaciones en el trazo, plano o patrón.
+          .col-md-7.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img13.svg', alt='La imagen muestra dos figuras humanas estilizadas para patrones de costura, una de frente y la otra de espalda, con áreas sombreadas en rosa y líneas de referencia. Ambas figuras tienen marcas para “Línea de Prof. de sisa”, y las áreas sombreadas se etiquetan como “Base Delantera Inferior 1/6” en la figura de frente y “Base Posterior Inferior 1/6” en la de espalda. En la parte superior de la figura frontal se lee “Sistema de cierre”, indicando el lugar para el mecanismo de cierre de la prenda.')   
+    .py-4
+    #7.subtitulo.mb-4(data-aos="fade")
+      h3.mb-0 3. Complementos:
+    p Toda interpretación, trazo, plano o prenda se compone de una serie de complementos como bolsillos, cuellos, mangas, cortes, puños y demás, en esta parte se tiene en cuenta el trazo de las piezas que complementan o conforman el diseño de la prenda.
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-7.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img14.svg', alt='La imagen muestra dos figuras humanas estilizadas, una de frente y otra de espalda, utilizadas en el diseño de patrones de costura. Las figuras tienen marcas y áreas sombreadas en rosa. La marca central dice “Línea de Prof. de sisa” y las áreas sombreadas están etiquetadas como “Base Delantera Inferior 1/6” en la figura de frente y “Base Posterior Inferior 1/6” en la de espalda. En la parte superior de la figura frontal aparece la palabra “Complementos”, posiblemente refiriéndose a elementos adicionales o accesorios del diseño del patrón.')   
+    .py-3
+    #7.subtitulo.mb-4(data-aos="fade")
+      h3.mb-0 4.	Señalización:
+    p Identificar cada una de las piezas con las especificaciones del diseño o de la prenda. Toda interpretación, trazo, plano o prenda se compone de una serie de complementos como bolsillos, cuellos, mangas y cortes.
+    .py-3
+    #7.subtitulo.mb-4(data-aos="fade")
+      h3.mb-0 5.	Despiece: 
+    P Separar cada una de las piezas anteriormente señalizadas y aumentar el margen de costura según las especificaciones técnicas.
+    P Con el fin de apropiar e identificar cada uno de los pasos anteriormente mencionados se dará inicio al trazo de una prenda superior, la cual irá cambiando su categorización a medida que se avance, es decir, en este primer trazo se hará el trazo de una especie de chaleco, el cual irá evolucionando a medida que se avance con las mangas, cuellos, puños y demás, hasta obtener una camisa debidamente señalizada y despiezada; es importante que tenga claro que este primer paso es el punto de partida para continuar con los siguientes.
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-6.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img15.svg', alt='')   
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.3 Trazo de cabezas mangas – Análisis de manga
+    
+    p Cuando se habla de manga, básicamente se entiende o se identifica como una pieza circular que cubre el brazo; sin embargo, existen diferentes tipos de puntos a tener en cuenta:
+    
     .row.mb-5
-      .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-acento-contenido.p-5.h-anexo
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center 
-            b Necesidades
-          p.text-center Principal objetivo del producto, si no existen genera insatisfacción.
-          ul.lista-ul--color
-            li.color-primario
-              i.fas.fa-plus
-              | Ser funcional
-            li.color-primario
-              i.fas.fa-plus
-              | Resolver el problema
-            li.color-primario
-              i.fas.fa-plus
-              | Entrega oportuna
-            li.color-primario
-              i.fas.fa-plus
-              | Respetar precio acordado
-            li.color-primario
-              i.fas.fa-plus
-              | Tiempo de duración de vida útil
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/icono1.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h3.text-center Largo de manga: 
+              p.text-center El largo de manga anatómico es aquel que va desde el punto de acromio hasta la muñeca, se debe tener en cuenta que, sin importar el diseño, largo o forma del cuerpo de la manga, siempre se debe partir desde el largo anatómico.
+  
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/icono1.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h3.text-center Altura o cabeza de manga:  
+              p.text-center Cuando se habla de cabeza de manga se identifican diferentes tipos de medidas, se puede trabajar con medida de cuadro de tallas, medida deducida o estandarizada. Se debe tener en cuenta que el largo de manga siempre será el mismo, sin importar qué tipo de prenda o cabeza de manga se implemente.
+
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/icono1.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h3.text-center Comportamiento de cabeza de manga: 
+              p.text-center Entre más larga sea la altura de cabeza de manga otorgará menor movimiento sobre el cuerpo = incomodidad, pero mayor estructura, esta descripción corresponde a las prendas que van ajustadas o con la horma del cuerpo.
+              p.text-center Entre más corta sea la altura de cabeza de manga otorgará mayor movimiento sobre el cuerpo = comodidad, pero menor estructura, esta descripción corresponde a las prendas que van holgadas o desestructuradas sobre el cuerpo.
+    
+    p Básicamente si esta descripción se divide o se categoriza en prendas de vestir se estaría diciendo que:
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-7.mb-3.mb-md-0.p-4
+        ul.lista-ul--color.lista-ul--separador 
+          li 
+            i.fas.fa-circle
+            | Entre más corta sea la cabeza de manga, corresponde a prendas  #[b deportivas.]
+          li
+            i.fas.fa-circle
+            | Entre más larga sea la cabeza de manga, corresponde a prendas  #[b formales.]
+          li 
+            i.fas.fa-circle
+            | Un punto intermedio entre las dos anteriores, corresponde a prendas  #[b casuales.]
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-4.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img16.svg', alt='')   
+
+    .py-2
+    p #[b Cabeza de manga por cuadro de tallas:] las cabezas de manga de los cuadros de tallas suelen ser categorizadas para prendas casuales, la medida se identifica en el cuadro de tallas, este tipo de cabeza de manga es estandarizada, no se tiene en cuenta el comportamiento sobre el cuerpo y el tipo de prenda. 
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-5.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img17.svg', alt='Cuadro de Tallas Femeninas con medidas anatómicas sin desahogos, se presentan en centímetros. Cuadro de tallas Masculinas, en donde las medidas son en pulgadas Cuadro de tallas infantil: Medidas en centímetros ')  
+        p.py-2.text-small Fuente: Manual_patronaje_basico_interpretacion_disenos.PDF - Sena
+    
+    p #[b Cabeza de manga por medida deducida:]  las cabezas de manga por medida deducida salen según el tipo de plano y línea que se trabaje, es decir, que cada vez que se esté trazando un plano, sobre ese plano con la medida de recorrido de sisa delantera y sisa posterior se identifica la cabeza de manga, la sumatoria de esas dos medidas son divididas de acuerdo con el tipo de prenda para identificar la cabeza de manga. 
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-4.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img18.svg', alt='')  
+      .col-md-4.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img19.svg', alt='')  
+    .py-2
+    p #[b Cabeza de manga estandarizada:]  las cabezas de manga estandarizadas suelen ser medidas que, sin explicación alguna, son entregadas para el desarrollo de las prendas.
+    .py-4
+    p #[b Trazo de cabeza de manga:]  Para dar continuidad al chaleco anteriormente trazado y con el fin de hacer el análisis de los diferentes tipos de trazos de manga se debe tomar como referencia las medidas y el desarrollo de la primera parte del plano “chaleco”. Al iniciar el trazo de cabeza de manga lo primero que se debe tener en cuenta son las medidas que se van a trabajar:
+    
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-4.mb-3.mb-md-0.p-4.cajonlila
+        h5.text-center Recorrido sisa delantera
+        hr.hblanco
+        h5.text-center Recorrido sisa posterior
+        hr.hblanco 
+        h5.text-center Tipo de cabeza de manga
+        hr.hblanco 
+        h5.text-center Largo de manga
+    .py-3    
+    p En el desarrollo de curvas y trazos en las cabezas de manga existen varias formas de trazarlas, la implementación y guía que se presenta en el video hace referencia a un primer acercamiento didáctico frente a la comprensión y el comportamiento de las mangas, esto hace que sea esencial la revisión de este.
+    .py-4
+    p #[b Trazo de manga:]   Debe tener en cuenta que el trazo de manga y las medidas de las sisas dependen del trazo de la prenda o diseño a trabajar, es decir, que siempre en este punto las mangas hacen parte de los complementos en los pasos del patronaje.
+    
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-md-4.mb-3.mb-md-0.p-4
+        img(src='@/assets/curso/temas/tema1/img20.svg', alt='La imagen muestra un diagrama de medidas para mangas de prendas. Hay una regla vertical en el centro que indica el “largo de manga”. Diferentes líneas de colores convergen hacia la regla desde la izquierda y la derecha, marcando distintas longitudes para el largo de manga con medidas específicas como “5 cm” y “3 cm” sobre las líneas. Dos letras “D” y “P” están colocadas a los lados de la regla, posiblemente representando diferentes tipos de mangas o medidas estándar. En la parte inferior, hay una indicación de “1/2 Cont. puño” y “1/2 Cont. sisa”, refiriéndose a la mitad del contorno del puño y la sisa respectivamente. Esto sugiere que el diagrama es una guía para trazar el patrón de una manga, indicando cómo varía el largo dependiendo de la medida del puño y la sisa. ')  
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.3.1 Modificaciones de manga
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.4 Trazo de cuellos – Generalidades y comportamientos
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.5 Despiece de planos
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.6 Trazo de prendas superiores
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.7 Trazo de prendas inferiores – faldas
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.8 Trazo de prendas inferiores – pantalón
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.9 Trazo de prendas – overol
+    Separador  
+    #t_1_1.titulo-segundo.color-primario
+      h2 1.10 Trazo de prendas – bata o vestido
       
-      .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-acento-botones.p-5.h-anexo
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center 
-            b Expectativas
-          p.text-center Si se presentan en mayor medida genera satisfacción.
-          ul.lista-ul--color
-            li.color-primario
-              i.fas.fa-plus
-              | Darle importancia al cliente 
-            li.color-primario
-              i.fas.fa-plus
-              | Trato cordial y amable al cliente
-            li.color-primario
-              i.fas.fa-plus
-              | Hacer sentir importante al cliente
-      
-      .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-primario.p-5.h-anexo
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center 
-            b Superar expectativas
-          p.text-center No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
-          ul.lista-ul--color
-            li.color-primario
-              i.fas.fa-plus
-              | Asistencia técnica 
-            li.color-primario
-              i.fas.fa-plus
-              | Descuentos
-            li.color-primario
-              i.fas.fa-plus
-              | Tiempos de entrega
-    .fullview
-      .row.justify-content-center.align-items-center.mb-5.p-5
-        .col-sm-12.col-lg-3
-          img(src="@/assets/curso/temas/tema1/img_11.svg")
-        .col-sm-12.col-lg-7
-          p.mb-5 Existen tipos de requisitos relacionados con:
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?
-              li.color-primario
-                i.fas.fa-plus
-                | Características técnicas: cantidades, peso, tamaño, color, entre otras
-              li.color-primario
-                i.fas.fa-plus
-                | Condiciones de pago y precio
-              li.color-primario
-                i.fas.fa-plus
-                | Plazos de entrega
-              li.color-primario
-                i.fas.fa-plus
-                | Especificaciones dadas por el cliente
-              li.color-primario
-                i.fas.fa-plus
-                | Mantenimientos y vida útil: instrucciones de uso y términos de garantía
-              li.color-primario
-                i.fas.fa-plus
-                | Legales: leyes y normas (rotulados, materiales, uso y residuos)
-    .row.justify-content-center.align-items-center.mb-5
-        .col-sm-12.col-lg-9           
-          .cajon.color-acento-contenido.p-4.mb-4
-            p.fw-bold.mb-0 Conforme con lo mencionado anteriormente, también podemos clasificar los requisitos de acuerdo con las características directas del producto, de la organización o de los externos, como el cliente y la normatividad.
-    .row.justify-content-center.align-items-center.mb-5
-        .col-sm-12.col-lg-9
-          p Dado que se presentan variaciones en los productos es preciso permitir tolerancias, que son márgenes permisibles de variación y aceptación.
-    .row.justify-content-center.align-items-center.mb-5
-        .col-sm-12.col-lg-9
-          h3.titulo-tercero Antecedentes y evolución de control de calidad
-          p.mb-3 Al ubicarse de manera temporal en el cambio de la fabricación artesanal a la industrialización, derivado de la Revolución Industrial y de los cambios en la producción masificada, se presentó un auge en la industria del automóvil liderada por Henry Ford en la década de 1910, en la que se daba los inicios de la calidad en las inspecciones del producto terminado. 
-          p.mb-0 Con el avance de la tecnología, de los estudios del trabajo y de la implementación de técnicas para aumentar la productividad, que buscaba la estandarización del producto, la calidad ganó importancia dentro del desempeño del negocio, es decir, a partir de los niveles de calidad del producto se empezó a satisfacer al cliente. Hoy en día, derivado de la cuarta Revolución Industrial, el proceso de control de calidad se viene automatizando para el análisis y predicción de fallas, sin olvidar que las personas siguen haciendo parte del proceso, al gestionar de manera integral la cadena de suministro. 
-
-        .col-sm-12.col-lg-3
-          img(src="@/assets/curso/temas/tema1/img_12.png")
-    SlyderA(tipo='b').bg01.p-5.mb-5
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Inspecciones
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | A partir de década de 1910.
-              li.color-primario
-                i.fas.fa-plus
-                | Especialización del trabajo.
-              li.color-primario
-                i.fas.fa-plus
-                | Inspecciones producto terminado.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_13.png")
-
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Control de calidad
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | A partir de la Segunda Guerra Mundial, en los años 40.
-              li.color-primario
-                i.fas.fa-plus
-                | Estudios de métodos y tiempos para mejorar eficiencia.
-              li.color-primario
-                i.fas.fa-plus
-                | Procesos más especializados.
-              li.color-primario
-                i.fas.fa-plus
-                | Desarrollo de estándares.
-              li.color-primario
-                i.fas.fa-plus
-                | Uso de métodos de medición.
-              li.color-primario
-                i.fas.fa-plus
-                | Muestreos, gráficos, sistema de información, manuales, instructivos, formatos.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_14.png")
-      
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Aseguramiento de calidad
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | A partir de los años 60.
-              li.color-primario
-                i.fas.fa-plus
-                | Garantía de calidad.
-              li.color-primario
-                i.fas.fa-plus
-                | Cumplir con estándares.
-              li.color-primario
-                i.fas.fa-plus
-                | Reducir defectos.
-              li.color-primario
-                i.fas.fa-plus
-                | Creación de sistemas de calidad.
-              li.color-primario
-                i.fas.fa-plus
-                | Auditorías internas y externas.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_15.png")
-
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Gestión de calidad
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | A partir de los años 80.
-              li.color-primario
-                i.fas.fa-plus
-                | Participación de la dirección de la empresa.
-              li.color-primario
-                i.fas.fa-plus
-                | Mejora continua.
-              li.color-primario
-                i.fas.fa-plus
-                | Satisfacción del cliente.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_16.png")
-
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Calidad total
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | #[b Círculos de calidad:] trabajo en equipo.
-              li.color-primario
-                i.fas.fa-plus
-                | #[b Desarrollo personal:] capacitación y entrenamiento.
-              li.color-primario
-                i.fas.fa-plus
-                | Se involucra todas las áreas y todas las personas de la empresa.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_17.png")
-
-      .row.justify-content-center.px-5
-        .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Excelencia de la igualdad
-          ul.lista-ul--color
-              li.color-primario
-                i.fas.fa-plus
-                | Suma de teorías y prácticas de calidad.
-              li.color-primario
-                i.fas.fa-plus
-                | Liderazgo en el mercado.
-              li.color-primario
-                i.fas.fa-plus
-                | Involucran los procesos. Mejora continua.
-        .col-sm-12.col-lg-8
-          img(src="@/assets/curso/temas/tema1/img_18.png")
-
-    .row.justify-content-center
-      .col-sm-12.col-lg-6
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-pdf-2.svg")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Complementario - 14.3 Artículo
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
-                    span.text-sistm Descargar
-                    i.fas.fa-file-download.text-sistm
-    h3.titulo-tercero Control de calidad en la industria textil y confección
-    p.mb-5 Se controla la calidad con el fin de mantener y corregir los defectos, errores o no conformidad que se presenta durante la producción de la prenda. Por tanto, se desarrolla según las variables y atributos del producto. 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-6
-        p Los beneficios de implementar las herramientas para el control de calidad son:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-3
-        img(src="@/assets/curso/temas/tema1/img_19.svg")
-
-      .col-sm-12.col-lg-3
-        ul.lista-ul--color
-          li.color-primario
-            i.fas.fa-plus
-            | Reducción de costos
-          li.color-primario
-            i.fas.fa-plus
-            | Reducción de defectos
-          li.color-primario
-            i.fas.fa-plus
-            | Obtención de productos estandarizados
-          li.color-primario
-            i.fas.fa-plus
-            | Disminución de desperdicios
-          li.color-primario
-            i.fas.fa-plus
-            | Mejoras en los procesos
-          li.color-primario
-            i.fas.fa-plus
-            | Aumento de la productividad
-      
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0.fw-bold De acuerdo con lo anterior, el control de la calidad en la industria se realiza en los procesos y en los recursos que intervienen en la producción de la prenda, desde su diseño y patronaje; la materia prima, en este caso la tela; los insumos entre los que se destaca el hilo, el empaque, el embalaje y la entrega al cliente asociados a las características de cada proceso y de cada material.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-6
-        p  El control de calidad se realiza en las siguientes fases:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-6
-        p  PENDIENTE
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-8
-        p  Mejora continua, con el fin de prever ocurrencias de la no conformidad, y facilitar la toma de decisiones.
-    h3.titulo-tercero Automatización de control de calidad en la industria textil y confección
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías big data, inteligencia artificial, machine learning, deep learning e internet de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
-        p.mb-4 La implementación básica se refiere a la utilización de software especializado; de herramientas de calidad como los programas SPSS, Statgraphics Centurion o SAS; de recursos relacionados con internet de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos QR, y las relacionadas con las herramientas Lean Manufacturing.
-        .cajon.color-acento-contenido.p-4.mb-4
-            p.fw-bold.mb-0 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad. Además, las personas encargadas directamente de la calidad pueden desarrollar actividades de manera remota, sin necesidad de su presencia in situ en la empresa. También puede apoyar la planificación de auditorías en el mejoramiento de la implementación de la metodología 5S.
-      .col-sm-12.col-lg-3
-        img(src="@/assets/curso/temas/tema1/img_20.png")
-
-
-
-
-    Separador  
-    #t_1_2.titulo-segundo.color-primario
-      h2 1.2 Gestión de calidad total    
-    p.mb-5 Para realizar una correcta gestión de la calidad en la empresa se debe tener en cuenta los siguientes enfoques:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-4
-        img(src="@/assets/curso/temas/tema1/img_21.png")
-      .col-sm-12.col-lg-6
-        ol.lista-ol--cuadro
-          li
-            .lista-ol--cuadro__vineta
-              span 1
-            | #[b Enfoque al cliente:] conocer al cliente, requisitos y expectativas 
-          li
-            .lista-ol--cuadro__vineta
-              span 2
-            | #[b Enfoque estratégico:]  establecer objetivo de calidad como clave para la empresa, e incluirlo en su visión
-          li
-            .lista-ol--cuadro__vineta
-              span 3
-            | #[b Liderazgo enfocado:] compromiso positivo de la dirección de la empresa
-          li
-            .lista-ol--cuadro__vineta
-              span 4
-            | #[b Enfoque en procesos:] control de los procesos 
-          li
-            .lista-ol--cuadro__vineta
-              span 5
-            | #[b Orientación a las personas:] involucrar al personal y ofrecerle capacitación permanente, con el fin de aumentar el nivel de compromiso y satisfacción del cliente interno
-          li
-            .lista-ol--cuadro__vineta
-              span 6
-            | #[b Enfoque científico:] evaluación de la calidad con evidencias y datos, aplicación del método científico
-          li
-            .lista-ol--cuadro__vineta
-              span 7
-            | #[b Mejora continua, innovación y aprendizaje:] todo proceso es susceptible de mejoras, no consiste solo en corregir sino actuar de forma proactiva
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-10
-        .cajon.color-acento-botones.p-4.mb-4
-            p.mb-0.fw-bold La comunicación interna también debe estar bien organizada, contar con un sistema de comunicación adecuado para evitar duplicidades de información que afecten negativamente la gestión de la calidad.
-    p.mb-5 Para reconocer la gestión en los procesos se debe tener en cuenta el ciclo de Deming, sobre el cual se construyen los sistemas de gestión. En la siguiente figura se aprecia cómo se constituye el ciclo de calidad para la mejora continua.
-    .row
-      .col-sm-12.col-lg-6.mx-auto.mb-5
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span
-            | Ciclo de Deming 
-        img.img-a(src='@/assets/curso/temas/tema1/img_22.svg', alt='El diagrama presenta los pasos del ciclo: planear, hacer, verificar, actuar.')
-       
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        h3.titulo-tercero Cultura de la calidad
-        p.mb-4 Son los principios de calidad que rigen la forma de actuar de las personas que hacen parte de la organización, para que interactúen entre ellas y así lograr en equipo los objetivos propuestos.
-        p Esta base definida en términos de valores y hábitos, del quehacer diario de todos los que trabajan en la empresa, requiere para su implementación la capacitación efectiva y constante, la interacción a través de una comunicación asertiva y eficaz para seguir construyendo una cultura de la calidad sólida; la metodología utilizada son los círculos de calidad desarrollados por Kauro Ishikawa. En la siguiente figura se aprecian sus componentes.
-      .col-sm-12.col-lg-3
-        img.img-a(src='@/assets/curso/temas/tema1/img_23.png')
-    
-    .fullview-blue
-      .row.mb-5
-        .col-sm-12.col-lg-8.mx-auto.p-5
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 2.
-            span
-              | Circulo de calidad
-          img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  Objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas')
-    h3.titulo-tercero(data-aos='fade-right') Metodología de mejoramiento continuo   
-    p.mb-3 La metodología se encuentra enmarcada dentro del ciclo de mejoramiento continuo, en el que se desarrollan trece pasos. De manera que todo el personal involucrado en la empresa debe participar para que el mejoramiento sea constante, ya que es un trabajo diario.
-    p.mb-5 Los elementos del Kaizen son:
-
-    .row.justify-content-between.align-items-center.mb-5
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_25.svg')
-          h3.text-center.mb-0.text-primario Trabajo en equipo
-
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_26.svg')
-          h3.text-center.mb-0.text-primario Disciplina personal
-
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_27.svg')
-          h3.text-center.mb-0.text-primario Moral mejorada
-
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_28.svg')
-          h3.text-center.mb-0.text-primario Círculos de calidad
-
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
-          .row.justify-content-center.mb-3
-            .col-7
-                img(src='@/assets/curso/temas/tema1/img_29.svg')
-          h3.text-center.mb-0.text-primario Sugerencias para las mejoras
-
-    p.mb-3 Para conocer sobre la metodología Kaizen, leer la estrategia Kaizen ubicada en las referencias bibliográficas (Lefcovich, 2009).
-    p.mb-5 La estrategia Kaizen fue desarrollada en Japón una vez terminada la II Guerra Mundial, la cual inicia con el análisis del problema; en la siguiente figura podemos observar los diferentes aspectos a tener en cuenta: 
-    .row.mb-5
-      .col-sm-12.col-lg-10.mx-auto
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span
-            | Proceso para la solución de problemas
-        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor, six sigma, análisis del modo y efecto de la falla, control estadístico del proceso.')
-    p.mb-5 A continuación, se pueden observar los 13 pasos de la metodología, descritos en la siguiente tabla:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-6
-        p  PENDIENTE
-    h3.titulo-tercero(data-aos='fade-right') #[i Six sigma ]
-    p.mb-5 Es un modelo de gestión, el objetivo es el mejoramiento de los procesos; se conoce por su sigla en inglés DMAIC cuya traducción está asociada a definir, medir, analizar, mejorar y controlar.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-10
-        img.img-a(src='@/assets/curso/temas/tema1/img_31.svg')
-    
-    .row.justify-content-center
-      .col-sm-12.col-lg-8
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-link-2.svg")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio Web Leansolutions, al cual puede acceder a través del siguiente enlace:
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
-                    span.text-sistm Enlace Web
-                    i.fas.fa-file-download.text-sistm
-    p.mb-5 En cada fase se utilizan herramientas para el análisis y creación de gráficos como histogramas, diagrama causa efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
-    h3.titulo-tercero(data-aos='fade-right') Costos de calidad
-    p.mb-3 La meta general de la empresa es ser rentable y obtener ganancias, por eso la relación de la calidad con el precio se debe analizar, concientizando al personal sobre su importancia.
-    p.mb-5 Es importante entender y concientizar al personal sobre el control de los costos de calidad. En la siguiente figura se puede observar los tipos de costos de calidad.
-    .row.mb-5
-      .col-sm-12.col-lg-9.mx-auto
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span
-            | Tipos de Costos de Calidad
-        img.img-a(src='@/assets/curso/temas/tema1/img_32.svg', alt='En el diagrama se  observan los tipos de costos de calidad:  Costo de  Calidad que comprende la Prevención y como ejemplo el mantenimiento de máquinas y capacitación de personal y la Evaluación como   ejemplo las  inspecciones, pruebas de laboratorio y auditorías internas y externas   y Costos de no calidad que comprenden los fallos internos  como la producción defectuosa, reprocesos, falda de productividad y paradas de producción y fallos externos  como devoluciones y demandas.')
-    .row.justify-content-center.align-items-center
-      .col-sm-12.col-lg-8
-        h3.titulo-tercero(data-aos='fade-right') Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
-        p.mb-5 El sistema de gestión de la calidad es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, e incluye los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa para cumplir con los requisitos. Una vez certificada la empresa su vigencia es de tres años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar una auditoría de renovación.
-        .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0.fw-bold La certificación es una constancia de valor a nivel internacional. El enfoque de la norma está basado en los riesgos, a través de los cuales la empresa demuestra la gestión de los riesgos y determina las acciones que pueden afectar la capacidad de proporcionar satisfacción al cliente y obtener los resultados esperados de la empresa.
-      .col-sm-12.col-lg-4
-          img.img-a(src='@/assets/curso/temas/tema1/img_33.svg')
-    
-    .row.justify-content-center.align-items-center.mb-0.bg02
-      .col-sm-12.col-lg-10
-        p.mb-0.py-4 La norma especifica qué debe hacerse, pero no cómo hacerlo. Para la norma es primordial que la información se encuentre documentada.
-    .row.justify-content-center.align-items-center.mt-0.bg03.py-4
-      .col-sm-12.col-lg-4
-          img.img-a(src='@/assets/curso/temas/tema1/img_34.png')
-      .col-sm-12.col-lg-6
-        h3.titulo-tercero(data-aos='fade-right') Introducción
-        .row.justify-content-center.mb-5
-          .col-sm-12.col-lg-6
-            ol.lista-ol--cuadro
-              li
-              .lista-ol--cuadro__vineta
-                span 1
-              | Objeto y campo de aplicación 
-              li
-              .lista-ol--cuadro__vineta
-                span 2
-              | Referencias normativas
-              li
-              .lista-ol--cuadro__vineta
-                span 3
-              | Términos y definiciones
-              li
-              .lista-ol--cuadro__vineta
-                span 4
-              | Contexto de la organización
-              li
-              .lista-ol--cuadro__vineta
-                span 5
-              | Liderazgo
-          .col-sm-12.col-lg-6
-            ol.lista-ol--cuadro
-              li
-              .lista-ol--cuadro__vineta
-                span 6
-              | Planificación
-              li
-              .lista-ol--cuadro__vineta
-                span 7
-              | Apoyo
-              li
-              .lista-ol--cuadro__vineta
-                span 8
-              | Operación
-              li
-              .lista-ol--cuadro__vineta
-                span 9
-              | Evaluación del desempeño
-              li
-              .lista-ol--cuadro__vineta
-                span 10
-              | Mejora
-        img.img-a(src='@/assets/curso/temas/tema1/img_35.svg')
-
-    
-    
-    
-    Separador  
-    #t_1_3.titulo-segundo.color-primario
-      h2 1.3 Puntos de control en el proceso de confección    
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en patronaje
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_36.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 Se debe establecer diferencia entre los puntos de control y los puntos de control crítico para asegurar la garantía de calidad de la prenda. Una vez se analice el flujo de los procesos mediante los diagramas de árbol y flujogramas, se determina en el proceso y en la prenda, los puntos a inspeccionar según su relevancia y así se establece la clasificación.
-    p.mb-4 En el patronaje se debe inspeccionar número de piezas, ancho de costuras, medidas de patrón y de prenda terminada. Además, en las medidas en cortes para unión de piezas, cada lado a unir debe corresponder; se debe disponer del tiempo necesario para realizar la revisión sea en un patrón manual o en el programa especializado.
-    p.mb-5 En el momento de desarrollo del producto se debe realizar la inspección, de tal forma que se compare junto con la muestra, y así pueda ser aprobado y pasar a los procesos de producción.
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en trazo y corte
-    p.mb-5 Una vez desarrollado el trazo, antes de imprimir en el caso que sea digital, y antes de realizar el extendido de la tela se debe inspeccionar el trazo, revisando la correspondencia de piezas y distribución de tallas, teniendo en cuenta la orden de producción, el ancho de trazo y el ancho de tela.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        p.mb-5 El corte se debe revisar una vez se termina de extender. Antes de iniciar el corte de las unidades de capas y alineación del tendido se debe inspeccionar la apariencia de la tela, también se debe tener cuidado con la separación del corte, sobre todo si se han extendido diferentes rollos de tela en el mismo corte, y verificar el cumplimiento de tiempos de reposo.
-        .cajon.color-acento-contenido.p-4
-          p.mb-0.fw-bold En la separación, tiqueteado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas, al comparar con el patronaje de la pieza, contar las piezas del paquete, y verificar el sistema de amarre y rotulado. Es importante disponer de un puesto de trabajo para la inspección, con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es necesaria la correcta disposición de las piezas para evitar contaminaciones del paquete con otros colores de estas u otras referencias.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_37.png')
-    h3.titulo-tercero.mb-5(data-aos='fade-right') Puntos de control en confección
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_38.png')
-      .col-sm-12.col-lg-5
-        p.mb-0 Al tener en cuenta que los procesos dentro de la confección de las prendas comprenden operaciones de preparación, ensamble y terminados, del mismo modo se establecen puntos de control en estas áreas, por tanto,  es importante determinar los puestos de calidad en donde se realizarán las inspecciones por parte del inspector de calidad; en el caso que el sistema de la planta sea modular, cada módulo debe disponer del puesto de calidad con las herramientas para realizar las mediciones y formatos definidos, además de una ubicación estratégica dentro del área.
-      
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en el producto en proceso
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_39.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 Aunque es muy importante el autocontrol que ejerce cada operario sobre lo que realiza para garantizar la calidad de su trabajo; de igual manera se debe llevar a cabo las inspecciones denominadas “en pie de máquina”, estas se realizan mientras la persona desarrolla las operaciones en su puesto de trabajo, con el fin de detectar de manera temprana defectos y establecer acciones de mejora. 
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-8
-        .cajon.color-acento-botones.p-4.mb-4
-            p.mb-0.fw-bold Cuando en el producto se realizan procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, que son considerados críticos.
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en el producto terminado
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_40.png')
-      .col-sm-12.col-lg-5
-        p.mb-0  Al finalizar la confección en cada módulo de producción o línea de la referencia se revisa el producto terminado antes de realizar procesos de planchado, de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez se realice el planchado, si es requerido, y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en confección de lote piloto
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_41.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 El lote piloto son unidades que se confeccionan con el fin de simular la producción de una referencia nueva; desarrollado el nuevo producto, es necesario realizar simulaciones para prever fallas en la producción; la información proporcionada una vez se realice el pilotaje brinda confianza sobre la viabilidad del producto y señala las estrategias a efectuar en el momento de la producción de la prenda.
-    h3.titulo-tercero(data-aos='fade-right') Puntos de control en compra de materiales e insumos
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-5
-        p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
-        .cajon.color-acento-botones.p-4.mb-4
-            p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_42.png')
-    .row.justify-content-center
-      .col-sm-12.col-lg-6
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-pdf-2.svg")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Complementario - 14.3 Artículo
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
-                    span.text-sistm Descargar
-                    i.fas.fa-file-download.text-sistm
-    
-    Separador  
-    #t_1_4.titulo-segundo.color-primario
-      h2 1.4 Control de calidad en patronaje    
-    .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_43.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 El control de los procesos consiste en comprender cuáles son las variaciones en las características del producto, encontrar las causas y tomar las decisiones para controlar la variabilidad, eliminando los errores, estandarizando el proceso y estableciendo mejoras para tener una variabilidad controlada.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-8
-        .cajon.color-acento-botones.p-4
-            p.mb-0.fw-bold En el proceso de patronaje, la persona responsable del patronaje de la prenda, junto con el auditor de calidad realizan la revisión del paquete de moldes o patrones que comprenden la pieza. Es importante revisarlos en físico, a pesar de que se desarrolle la prenda en un software especializado.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-9
-        p Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje.
-    h3.titulo-tercero(data-aos='fade-right') Requisitos  de calidad en patronaje
-    p.mb-4 Los productos tienen variables y atributos, las variables son características cuantitativas y los atributos son las cualidades no cuantificables, los cuales constituyen los requisitos de una prenda.
-    p.mb-5 Los requisitos además están clasificados de la siguiente manera:
-    .row.justify-content-between.align-items-center.mb-5
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-                img(src='@/assets/curso/temas/tema1/img_44.svg')
-          h3.text-center.mb-3 Explícitos
-          p.text-center.mb-0 Declarados por el cliente, según sus expectativas
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-                img(src='@/assets/curso/temas/tema1/img_45.svg')
-          h3.text-center.mb-3 Implícitos
-          p.text-center.mb-0 Necesarios para que cumplan su función
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-                img(src='@/assets/curso/temas/tema1/img_46.svg')
-          h3.text-center.mb-3 Legales o reglamentarios
-          p.text-center.mb-0 De acuerdo con el cumplimiento de las leyes
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-                img(src='@/assets/curso/temas/tema1/img_47.svg')
-          h3.text-center.mb-3 Relacionados con la empresa
-          p.text-center.mb-0 Según las políticas de la empresa
-    p.mb-5 Los requisitos para revisar en patronaje son:
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--purple")
-      .row(titulo="Medidas")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_48.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para observar que coincidan a sus longitudes..row(titulo="")
-
-      .row(titulo="Cantidad de piezas")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_49.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Correspondencia de piezas respecto al diseño y al dibujo plano del patrón.
-      
-      .row(titulo="Señalización de pieza")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_50.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Debe contener identificación de la prenda, no se debe prestar a dualidades de información, además debe indicar la cantidad a cortar en cada pieza.
-      .row(titulo="Aplomos")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_51.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Indicación clara de las líneas de aplomo de cada pieza.
-      .row(titulo="Costuras")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_52.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Márgenes de costura en cada pieza, y la correspondencia con la pieza a unir, por ejemplo, si en el hombro de la pieza del delantero el ancho es de 1 cm de margen de costura, en el hombro posterior debe corresponder a la misma medida.
-      .row(titulo="Piquetes y puntos")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_54.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Existencia de puntos y piquetes, alineando las piezas y correspondiendo la unión de puntos y piquetes.
-      .row(titulo="Plantillas")
-        .col-12
-          .row.justify-content-center
-            .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_55.svg')
-            .col-sm-12.col-lg-9
-              p.mb-0 Funcionalidad de la plantilla y sus medidas.  
-    
-    
-    
-    
-    
-    
-    
-    Separador  
-    #t_1_5.titulo-segundo.color-primario
-      h2 1.5 Control de calidad en trazo y corte    
-    
-    Separador  
-    #t_1_6.titulo-segundo.color-primario
-      h2 1.6 Control de calidad en confección    
-    
-    Separador  
-    #t_1_7.titulo-segundo.color-primario
-      h2 1.7 Control de calidad en terminados    
-    
-    Separador  
-    #t_1_8.titulo-segundo.color-primario
-      h2 1.8 Control de calidad en insumos, materiales y textiles    
+ 
+ 
 </template>
 
 <script>

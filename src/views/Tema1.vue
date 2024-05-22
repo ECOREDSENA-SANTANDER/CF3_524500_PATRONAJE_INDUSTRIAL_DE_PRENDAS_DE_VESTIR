@@ -251,12 +251,122 @@
     Separador  
     #t_1_1.titulo-segundo.color-primario
       h2 1.3.1 Modificaciones de manga
+    
+    p Al tomar como punto de partida el trazo de manga base, el cual corresponde al tipo de prenda con el análisis de cabeza de manga, se trabajan modificaciones por largo.
+    p Los largos más comunes son:
+    
+    h5 Manga ¾, manga a la altura del codo, manga corta, manga coqueta y, sin manga o sisa.
+
+    .bgamarillo.py-4
+      SlyderA(tipo="a").p-4
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-3.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img21.svg', alt='') 
+          .col-md-4
+            p Estos son solo algunos de todos los que existen, es importante mencionar que #[b en este caso únicamente se trabajará desde la parte estructural o como queda en el cuerpo y no desde el nombre comercial], es decir, a nivel nacional los nombres varían de acuerdo con el contexto, motivo por el cual únicamente se #[b trabajará el nombre funcional] o que aplica con las referencias del cuerpo.
+        
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-3.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img22.svg', alt='') 
+          .col-md-4
+            p Dentro de las variaciones más comunes encontradas en mangas se identifican los puños y las portañuelas, en infantil y masculino suelen ser utilizadas en el análisis o la interpretación de prendas superiores por camisas, chaquetas, vestidos y demás.
+    .py-4
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-1.col-4
+        img(src='@/assets/curso/temas/tema1/img23.svg', alt='') 
+      .col-lg-10
+        p Al dar continuidad al chaleco anteriormente trazado y con el fin de hacer el análisis de los diferentes tipos de modificaciones en manga se debe tomar como referencia las medidas y el desarrollo de la primera parte del plano #[b “chaleco”] y las cabezas de manga, es decir, que #[b siempre en este punto las mangas y modificaciones hacen parte de los complementos] en los pasos del patronaje.
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    
     Separador  
     #t_1_1.titulo-segundo.color-primario
       h2 1.4 Trazo de cuellos – Generalidades y comportamientos
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-12
+        img(src='@/assets/curso/temas/tema1/img24.png', alt='') 
+        p.py-4 Cuando se habla de cuellos, lo primero que se debe #[b tener en cuenta es la base y forma de cada escote,] esto es, si se habla de la parte funcional del cuello; el cuello es una extensión o pieza adicional que se une a un escote, tanto delantero como posterior.
+        p Al trabajar bajo el #[b contexto funcional] y no comercial, todos los cuellos en patronaje se dividen en tres grandes grupos:
+      .col-lg-12.col-12 
+        img(src='@/assets/curso/temas/tema1/01.svg', alt='')
+      .col-lg-10 
+        p.py-4 son cuellos que se caracterizan por tener forma de tira, en la mayoría de los casos abrazan el cuello y #[b se mantienen “levantados”] sobre la estructura. Desde plano suelen tener curvas disímiles al escote y en la mayoría de los casos suelen salir en un plano aparte, esto es, sobre ejes de trazo diferentes al plano de la prenda.
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema1/img24.svg', alt='')
+        p.py-4 Dentro del trazo y la misma estructura del plano de los cuellos por medida de contorno se identifican las capotas.
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema1/img25.svg', alt='La imagen muestra dos diagramas relacionados con la confección de prendas de vestir. En el lado izquierdo, hay dos figuras de maniquíes, uno de frente y otro de espalda, con líneas que marcan divisiones anatómicas y posibles líneas de costura para la ropa. En el lado derecho, hay un patrón de tela para la parte superior de un vestido o camiseta, con indicaciones específicas sobre cómo modificar la curvatura del escote. La frase “Curva disímil a la del escote” sugiere que se está dando una instrucción para hacer una curva similar a la del escote en otra parte del patrón.')
+    
+    .py-4
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-12
+        img(src='@/assets/curso/temas/tema1/02.svg', alt='')
+      .col-lg-10
+        p.py-4 son cuellos que se caracterizan porque descansan sobre el cuerpo, es decir, #[b no se mantienen “levantados”] sobre la estructura del cuello, sino que salen o quedan con la misma estructura o forma del cuerpo. Desde plano suelen salir sobre el mismo trazo de la prenda, en la mayoría de los casos suelen tener unión o costura en escote.
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema1/img26.svg', alt='')
+    
+    .py-4
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-12
+        img(src='@/assets/curso/temas/tema1/03.svg', alt='')
+      .col-lg-10
+        p.py-4 son cuellos que se caracterizan porque combinan el comportamiento de los dos anteriores, esto es, una parte del cuello (delantero – posterior) #[b abraza el cuello y se mantiene “levantado”] sobre la estructura y la otra parte (delantero – posterior) descansa sobre el cuerpo, es decir, no se mantiene “levantado” sobre la estructura del cuello; este tipo de cuellos suelen salir en la parte que descansa sobre el cuerpo sin ningún corte, sino como una extensión de la prenda, y la parte que abraza el cuello con corte de unión en escote. Desde plano suelen salir sobre el mismo trazo de la prenda. 
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema1/img27.svg', alt='')
+    
+    .py-4
+    .row(data-aos="fade-left")
+      h5 Trazo de cuellos
+      p Al dar continuidad al chaleco anteriormente trazado y con el fin de hacer el análisis de los diferentes tipos de cuellos se debe tomar como referencia las medidas y el desarrollo de la primera parte del plano “chaleco”, es decir, que siempre en este punto los cuellos hacen parte de los complementos en los pasos del patronaje.
+    .py-4
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    
+    
     Separador  
     #t_1_1.titulo-segundo.color-primario
       h2 1.5 Despiece de planos
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-12
+        p En este punto que se han desarrollado los pasos del patronaje mencionados al inicio, para poder obtener un despiece #[b es importante tener en mente que el chaleco con el que se inició a trabajar o a hacer el trazo ya tiene mangas], puños y cuello, es decir, pasó a ser o a tener las características de una camisa.
+      .col-lg-6.py-4
+        img(src='@/assets/curso/temas/tema1/img28.svg', alt='')
+      .col-lg-12
+        p Para iniciar a hacer un despiece se debe aclarar que #[b todo depende del diseño, dibujo plano o ficha técnica], el ejercicio que se va a desarrollar es simplemente un ejercicio práctico con simulaciones o ejemplos variantes a cada diseño.
+      .col-lg-6.py-4
+        img(src='@/assets/curso/temas/tema1/img29.svg', alt='Cuando se hace un despiece como su nombre lo indica, consiste en calcar o copiar el molde de cada pieza por aparte, identificando cada uno de los moldes que se cortarán en el material textil o material a utilizar para confeccionar la prenda.')
+      p Elementos para tener en cuenta al momento de calcar las piezas para el despiece:
+      
+      ul.lista-ul--color.lista-ul--separador 
+        li 
+          i.fas.fa-circle 
+          span.txtlila #[b Margen de costura:]
+          | depende del tipo de costura y la maquinaria a trabajar, por especificación de calidad se asigna 1cm de margen de costura en la industria para la unión de costuras en máquina plana; pero se debe tener en cuenta si la operación es realizada, por ejemplo, en #[b fileteadora con puntada de seguridad], conforme a lo anterior se debe, si es el caso, disminuir el margen de costura. Además, #[b es muy importante el margen en los ruedos] o dobladillos de las prendas.
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema1/img30.png', alt='')
+      .col-lg-12 
+        p.py-4 Es importante tener en cuenta que el margen de costura #[b depende del 100% de la operación o el tipo de máquina], es decir, si en este caso se va a trabajar una costura francesa, el consumo o el margen de costura debe ser superior a 1cm, si se va a unir con cerradora de codo, #[b recubridora, fileteadora] y demás requiere especificaciones diferentes en el margen de costura.
+    
+    .bgamarillo.py-4
+      SlyderA(tipo="a").p-4
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-5.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img31.svg', alt='La imagen es un collage de tres secciones relacionadas con la confección de ropa. En la parte superior, hay un patrón de corte azul para una camisa con múltiples piezas etiquetadas y medidas especificadas. En la sección del medio, se muestra un esquema de instrucciones de costura amarillo con dibujos de prendas, símbolos de costura y números, que parecen ser pasos o partes de un conjunto de instrucciones para confeccionar una prenda. La tercera sección en la parte inferior muestra una fotografía de un tejido o costura, posiblemente ilustrando la textura o la calidad del acabado de un detalle de confección.') 
+          .py-4
+        .row.justify-content-center(data-aos="fade-left")
+          .col-md-6.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema1/img32.svg', alt='') 
+          .py-4
+
     Separador  
     #t_1_1.titulo-segundo.color-primario
       h2 1.6 Trazo de prendas superiores

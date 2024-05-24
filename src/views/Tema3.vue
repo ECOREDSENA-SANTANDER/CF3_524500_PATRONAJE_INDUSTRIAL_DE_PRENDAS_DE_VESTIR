@@ -303,6 +303,35 @@
 
     p Cuando se habla de manga, básicamente se entiende o identifica como una pieza circular que cubre el brazo; sin embargo, existen diferentes tipos de puntos para tener en cuenta:
 
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Largo de manga:")
+        .col-md-12.mb-4.mb-md-0
+          p El largo de manga anatómico es aquel que va desde el punto de acromio hasta la muñeca, se debe tener en cuenta que, sin importar el diseño, largo o forma del cuerpo de la manga, siempre se debe partir desde el largo anatómico.
+
+
+      div(titulo="Altura o cabeza de manga:")
+        .col-md-12.mb-4.mb-md-0
+          p Cuando se habla de cabeza de manga se identifican diferentes tipos de medidas, se puede trabajar con medida de cuadro de tallas, medida deducida o estandarizada.  Se debe tener en cuenta que el largo de manga siempre será el mismo, sin importar qué tipo de prenda o cabeza de manga se implemente.
+
+      div(titulo="Comportamiento de cabeza de manga:")
+        .col-md-12.mb-4.mb-md-0
+          p Entre más larga sea la altura de cabeza de manga otorgará menor movimiento sobre el cuerpo = incomodidad, pero mayor estructura, esta descripción corresponde a las prendas que van ajustadas o con la horma del cuerpo.
+          p Entre más corta sea la altura de cabeza de manga otorgará mayor movimiento sobre el cuerpo = comodidad, pero menor estructura, esta descripción corresponde a las prendas que van holgadas o desestructuradas sobre el cuerpo.
+    .py-3
+    p Básicamente si está descripción se divide o se categoriza en prendas de vestir se estaría diciendo que:
+    .py-2
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-8
+        .cajon.color-primario.p-4.mb-4
+          h5.text-center Entre más corta sea la cabeza de manga, corresponde a prendas deportivas
+          hr.hblanco
+          h5.text-center Entre más larga sea la cabeza de manga, corresponde a prendas formales
+          hr.hblanco 
+          h5.text-center Un punto intermedio entre las dos anteriores, corresponde a prendas casuales
+ 
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema3/img25.svg', alt='')
 
 
 

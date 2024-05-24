@@ -117,6 +117,39 @@ export default {
           },
         ],
       },
+      {
+        titulo: 'Patronaje básico línea femenina',
+        nombreRuta: 'tema3',
+        numero: '3',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: ' Confección panty femenino',
+            nombreRuta: 'tema_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: ' Confección bóxer masculino',
+            nombreRuta: 'tema_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: ' Confección de camiseta tipo polo',
+            nombreRuta: 'tema_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: ' Confección de pantalón sudadera',
+            nombreRuta: 'tema_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: ' Elaboración de conjunto deportivo top y leggins',
+            nombreRuta: 'tema_2_5',
+          },
+        ],
+      },
     ],
     subMenu: [
       {

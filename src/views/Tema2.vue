@@ -184,12 +184,12 @@
       .col-lg-8
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-4.col-sm-2.col-lg-1
+            .col-4.col-sm-2.col-lg-3
               img.desborde(src='@/assets/curso/temas/tema2/descargar.svg')
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-1.text-white Consultar imagen: camisa clásica paso 1 y camisa slim fit paso 1 
+                .col.mb-4.mb-sm-0
+                  p.mb-1.text-white.text-small Consultar imagen: camisa clásica paso 1 y camisa slim fit paso 1 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Consultar imagen

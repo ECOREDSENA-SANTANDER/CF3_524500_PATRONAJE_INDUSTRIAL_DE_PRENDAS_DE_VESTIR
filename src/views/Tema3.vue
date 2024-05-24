@@ -86,34 +86,117 @@
                   a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span.text-white Descargar
                     i.text-white.fas.fa-download
+    
+    .py-2
+    .row.justify-content-center.align-items-center(data-aos="fade-left") 
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema3/img04.svg')
+    .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
 
 
+    Separador  
+    #t_3_1_1.titulo-segundo.color-primario
+      h2 3.1.1 Análisis y trazo de sistema de ajuste (pinzas y cortes)
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left") 
+      .col-lg-12
+        p Dentro del desarrollo de moldes y patrones #[b se hace indispensable el manejo de pinzas como sistema de ajuste o como insumo principal] para el manejo de volúmenes; #[b las pinzas en femenino son un punto de partida primordial y específico], el cual es necesario comprender desde la base funcional, estructural y matemática.
+        p Para comprender el funcionamiento de las pinzas se trabajará únicamente la parte superior femenina, #[b contemplando la circunferencia y el volumen del busto], de igual manera el contorno de cintura y el contorno de cadera, #[b cada uno de estos contornos maneja características como volúmenes más protuberantes de los #[em tops] o los #[em bottoms]] y punto unión o encuentro entre la división del cuerpo.
+    
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-6
+        .cajon.color-primario.p-4.mb-4
+          h5 En el manejo de pinzas únicamente se trabajará con los contornos relevantes o que se toman como punto de partida para la construcción de básicos.
+ 
+
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-6
+        .bglila2.p-4.mb-4
+          h5 Contorno de busto – contorno de cintura – contorno de cadera
+
+    p Sin importar el tipo de prenda, #[b los desahogos o la interpretación, las pinzas como sistema de ajuste siempre se trabajarán sobre esos contornos debido a que son los contornos con los que se trabaja la base o el básico]. Siendo así, para el manejo de pinzas se debe tener en cuenta que:
+
+    .row.justify-content-center-aling-items-center(data-aos="fade-left")
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img05.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h4 Prendas superiores ajuste por cintura:
+              p.text-center Contorno de busto
+              p.text-center (medida base) - (menos)
+              p.text-center Contorno de cintura
+              p.text-center (medida más pequeña ajustar)
+        
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img06.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h4 Prendas superiores ajuste por cadera:
+              p.text-center Contorno de busto
+              p.text-center (medida base) - (menos)
+              p.text-center Contorno de cintura
+              p.text-center (medida más pequeña ajustar)
+        
+      .col-md-4.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/img07.svg' alt='AvatarTop')
+          .tarjeta.cajonlila
+            .text-dark.p-4
+              h4 Prendas inferiores ajuste por cintura:
+              p.text-center Contorno de busto
+              p.text-center (medida base) - (menos)
+              p.text-center Contorno de cintura
+              p.text-center (medida más pequeña ajustar)
+
+      .py-4
+      p Todos los volúmenes o manejos de pinza dependen del tipo de silueta, #[b drop o ADN de marca], es decir, el ancho y profundidad de la pinza se plantea a partir de dicho análisis. #[b La variedad de cortes en los patrones hace que realce en particular alguna parte del cuerpo o realce el contraste de materiales, un corte en la cintura, busto, entre otros, sea en dirección horizontal o vertical], mejora la horma de la prenda cuya finalidad es resaltar en mayor medida la estética de las proporciones de la figura femenina.
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
 
 
+    Separador  
+    #t_3_2.titulo-segundo.color-primario
+      h2 3.2 Trazo de blusa femenina
 
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-8
+        p Para desarrollar los planos del manual de patronaje del SENA, es esencial iniciar desde los fundamentos establecidos en los componentes previos. Este enfoque facilita la comprensión del análisis del manual, todo ello dentro del marco de la metodología del SENA. A lo largo del proceso, se proporcionarán guías o ejemplos que detallan la implementación de cada paso del patronaje.
+        p En la página 39 del manual, se presenta un plano de referencia para el trazado de una blusa con almilla y cuello camisero. Este plano incluye elementos como desahogos, traslado de pinza correctiva de talle, sistema de cierre y complementos (almillas, bolsillos de parche). Es importante destacar que este plano sirve únicamente como una guía o referencia sobre cómo implementar la base. No proporciona especificaciones ni estándares para el trazado de una blusa en particular.
+        p Es fundamental tener en cuenta que cada prenda, diseño, referencia, dibujo plano, ficha técnica o imagen cuenta con referencias específicas. Estas referencias están alineadas con los conceptos de diseño y los requisitos necesarios para la producción.
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema3/img08.svg', alt='')
 
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema3/img09.svg', alt='')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema3/img10.svg', alt='')
+      .col-lg-8
+        p Con el fin de referenciar y contextualizar la implementación, recuerde que, aunque en el manual se identifica un plano separado se sugiere trabajar siempre en plano unido, con el fin de validar medidas como largos o proporciones referenciados en el plano.
+        p Para el trazo del plano desde los básicos se debe iniciar trazando una línea de referencia, en el caso de las bases superiores se traza una línea de manera horizontal en el papel, sobre la cual quedará alineados o aplomados desde la línea base de construcción; en prendas superiores la línea de aplome o línea base será la línea de profundidad de sisa.
+    
+    .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+    
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-8
+        .cajon.color-primario.p-4.mb-4
+          p Las blusas femeninas presentan variedad, igualmente en los sistemas de ajustes se puede eliminar pinzas, crear cortes, además diferencias en cuellos, largos de manga y puños, y complementos como golas, lo cual aumenta la complejidad en el desarrollo del patronaje. Al tener en cuenta lo anterior, el patronista debe analizar el material a trabajar para acertar en la aplicación de desahogos.
 </template>
 
 <script>

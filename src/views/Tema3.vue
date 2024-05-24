@@ -178,7 +178,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
       .col-lg-6
-        img(src='@/assets/curso/temas/tema3/img09.svg', alt='')
+        img(src='@/assets/curso/temas/tema3/img09.svg', alt='La imagen muestra un patrón detallado para la confección de una “BLUSA CON ALMILLA CON CUELLO CAMISERO”. El patrón incluye varias piezas que componen la blusa, con medidas específicas en centímetros que guían el corte de cada sección de la prenda. Se observan las piezas del cuello, la almilla (que puede referirse a una tapa donde van los botones), y otras partes del cuerpo de la blusa. Hay líneas marcadas para indicar dónde se deben hacer pliegues o dobladillos, y se destacan las distintas partes con líneas sólidas y punteadas. ')
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
       .col-lg-3
@@ -196,7 +196,116 @@
     .row.justify-content-center(data-aos="fade-left") 
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
-          p Las blusas femeninas presentan variedad, igualmente en los sistemas de ajustes se puede eliminar pinzas, crear cortes, además diferencias en cuellos, largos de manga y puños, y complementos como golas, lo cual aumenta la complejidad en el desarrollo del patronaje. Al tener en cuenta lo anterior, el patronista debe analizar el material a trabajar para acertar en la aplicación de desahogos.
+           p Las blusas femeninas presentan variedad, igualmente en los sistemas de ajustes se puede #[b eliminar pinzas, crear cortes, además diferencias en cuellos, largos de manga y puños, y complementos como golas], lo cual aumenta la complejidad en el desarrollo del patronaje. Al tener en cuenta lo anterior, el patronista debe analizar el material a trabajar para acertar en la aplicación de desahogos.
+
+    Separador  
+    #t_3_3.titulo-segundo.color-primario
+      h2 3.3 Trazo de escotes y tipos de cuellos
+
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-2
+        img.imgsize(src='@/assets/curso/temas/tema3/img11.svg', alt='')
+      .col-lg-9
+        p Cuando se habla de cuellos, #[b lo primero que se debe tener en cuenta es la base y forma de cada escote], es decir, si se habla de la parte funcional del cuello, el cuello es una extensión o pieza adicional que se une a un escote, tanto delantero como posterior.
+        p Los escotes son modificaciones o “desahogos” que se dan desde el básico, dependiendo el requerimiento del diseño, los escotes se componen por:
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-2
+        h5 Ancho y largo
+
+    .bgazul 
+      SlyderA(tipo="a")
+        .row.justify-content-center(data-aos="fade-left").p-4
+          .col-md-10
+            p.text-center Los anchos son las medidas que se dan por hombro, desde el punto de cuello hombro, hacia el punto de acromio o por el recorrido de hombro.
+          .col-md-6.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema3/img12.svg', alt='La imagen muestra dos figuras de maniquíes, una de frente y otra de espalda, con marcas que indican medidas específicas para la confección de ropa. En la figura de frente, se destaca el “Ancho de escote” con una línea punteada rosa que señala la medida horizontal del escote. En la figura de espalda, se señala el “Deshago por ancho”, probablemente refiriéndose a la cantidad de tela extra o margen que se debe considerar al cortar la prenda para ajustar el ancho del escote. Estas medidas son claves en el proceso de patronaje y confección de prendas a medida para asegurar un buen ajuste. Las líneas anaranjadas podrían representar otras costuras o ejes de simetría importantes en el diseño del patrón.')
+          .py-3
+        .row.justify-content-center(data-aos="fade-left").p-4
+          .col-md-10
+            p.text-center Los largos son aquellos que se dan por centros, bien sea centro frente o centro atrás.
+          .col-md-6.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema3/img13.svg', alt='La imagen presenta dos figuras de maniquíes grises, una de frente y otra de espalda, con marcas en color rosa. Las líneas rosas indican medidas específicas para el diseño de prendas. En el maniquí de frente, hay una línea vertical que marca el “Largo de escote”, refiriéndose a la distancia desde el punto más alto del hombro hasta el punto más bajo del escote en la parte delantera de la prenda. En el maniquí de espalda, se muestra una línea vertical que marca el “Deshago por largo”, que puede referirse al margen adicional de tela necesaria para ajustes de longitud o para la caída de la prenda en la parte posterior. Estas medidas son fundamentales en la creación de patrones para asegurar un ajuste adecuado y proporcionado de las prendas. Las líneas punteadas amarillas marcan posiblemente las líneas de corte o las costuras laterales del cuerpo del maniquí. ') 
+            .py-3
+        .row.justify-content-center(data-aos="fade-left").p-4
+          .col-md-10
+            p.text-center Los escotes reciben el nombre de su forma, es decir, en el momento en que se une el punto de ancho y el punto del largo en la parte delantera o posterior, se bautiza o asigna el nombre del escote. Algunos nombres son:
+          .col-md-6.mb-3.mb-md-0.p-4
+            img(src='@/assets/curso/temas/tema3/img14.svg', alt='La imagen muestra dos figuras de maniquíes grises, una vista de frente y otra de espalda, con líneas y anotaciones que indican medidas para patronaje en diseño de moda. En el maniquí de frente, una línea rosa punteada indica la “Forma de escote”, delineando su contorno. Una línea naranja horizontal y una vertical se cruzan en el pecho, marcando la “Unión de ancho y largo”. En el maniquí de espalda, estas dos líneas naranjas también aparecen, sugiriendo el punto donde el ancho y el largo se unen en la parte posterior de la prenda. ')
+            .py-3
+    .py-3
+    .row.justify-content-center(data-aos="fade-left").p-4
+      .col-lg-2
+        img(src='@/assets/curso/temas/tema3/img15.png', alt='La imagen muestra una colección de seis blusas, cada una con un estilo de escote diferente. De izquierda a derecha y de arriba a abajo, los estilos son: escote cuadrado, escote bandeja, escote redondo, escote en “V” y escote en “U”. Cada blusa presenta un diseño distinto que corresponde al tipo de escote, desde detalles fruncidos hasta diseños lisos o con encaje, y cada una se etiqueta con el nombre de su estilo de escote para una fácil identificación.')
+        figcaption.text-center Escote cuadrado 
+      .col-lg-2
+        img(src='@/assets/curso/temas/tema3/img16.png', alt='La imagen muestra una colección de seis blusas, cada una con un estilo de escote diferente. De izquierda a derecha y de arriba a abajo, los estilos son: escote cuadrado, escote bandeja, escote redondo, escote en “V” y escote en “U”. Cada blusa presenta un diseño distinto que corresponde al tipo de escote, desde detalles fruncidos hasta diseños lisos o con encaje, y cada una se etiqueta con el nombre de su estilo de escote para una fácil identificación.')
+        figcaption.text-center Escote bandeja 
+      .col-lg-2
+        img(src='@/assets/curso/temas/tema3/img17.png', alt='La imagen muestra una colección de seis blusas, cada una con un estilo de escote diferente. De izquierda a derecha y de arriba a abajo, los estilos son: escote cuadrado, escote bandeja, escote redondo, escote en “V” y escote en “U”. Cada blusa presenta un diseño distinto que corresponde al tipo de escote, desde detalles fruncidos hasta diseños lisos o con encaje, y cada una se etiqueta con el nombre de su estilo de escote para una fácil identificación.')
+        figcaption.text-center Escote redondo 
+      .col-lg-2
+        img(src='@/assets/curso/temas/tema3/img18.png', alt='La imagen muestra una colección de seis blusas, cada una con un estilo de escote diferente. De izquierda a derecha y de arriba a abajo, los estilos son: escote cuadrado, escote bandeja, escote redondo, escote en “V” y escote en “U”. Cada blusa presenta un diseño distinto que corresponde al tipo de escote, desde detalles fruncidos hasta diseños lisos o con encaje, y cada una se etiqueta con el nombre de su estilo de escote para una fácil identificación.')
+        figcaption.text-center Escote en “V” 
+      .col-lg-2
+        img(src='@/assets/curso/temas/tema3/img19.png', alt='La imagen muestra una colección de seis blusas, cada una con un estilo de escote diferente. De izquierda a derecha y de arriba a abajo, los estilos son: escote cuadrado, escote bandeja, escote redondo, escote en “V” y escote en “U”. Cada blusa presenta un diseño distinto que corresponde al tipo de escote, desde detalles fruncidos hasta diseños lisos o con encaje, y cada una se etiqueta con el nombre de su estilo de escote para una fácil identificación.')
+        figcaption.text-center Escote en “U”
+    .py-4
+    p Los nombres de la forma varían de acuerdo con el entorno comercial, así que lo más relevante es la parte técnica del funcionamiento o la lógica de cómo debe quedar la prenda sobre el cuerpo.
+    p Cabe resaltar la importancia del #[b manejo de la profundidad del escote, a su vez coordine con el diseño requerido y no afecte la funcionalidad de la prenda]. En la confección de los escotes se debe controlar la medida de contorno, en la operación de la máquina por el arrastre o la manipulación generada por el operario. En mención de lo anterior, #[b se debe plantear la mejor opción de pieza para cubrir el orillo del material textil en el escote, como son los falsos y el sesgo], además definir el ancho para tener en cuenta en el desarrollo de la operación de confección. Para el uso de falsos se debe analizar y plantear las entretelas acordes con el material textil a confeccionar.
+
+    .py-3
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-11
+        p Para el trazo de cuellos se va trabajando bajo el contexto funcional y no comercial, todos los cuellos en patronaje se dividen en tres grandes grupos:
+
+    .py-2
+    .row.justify-content-center(data-aos="fade-left").p-4
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema3/img20.svg', alt='')
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema3/img21.svg', alt='')
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema3/img22.svg', alt='')
+    
+    .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+
+    Separador  
+    #t_3_4.titulo-segundo.color-primario
+      h2 3.4 Trazo de chaqueta tipo sastre
+
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-4
+        img(src='@/assets/curso/temas/tema3/img23.svg', alt='')
+      .col-lg-8
+        p Para el desarrollo de los planos del manual de patronaje #[b SENA] siempre se debe partir de las bases o básicos que se han desarrollado en componentes anteriores, con el fin de apropiar el análisis del manual, #[b todo se irá desarrollando dentro del marco de la metodología SENA], en la cual se irán encontrando guías o ejemplos con la implementación de cada uno de los pasos del patronaje.
+        p Para el trazo de chaqueta cuello sastre en la página 40 del manual encontrará un plano de referencia, en el plano #[b identificará elementos como desahogos, traslado de pinza correctiva de talle, sistema de ajuste (corte francés) sistema de cierre], este plano es solo una guía o una referencia de cómo se puede implementar la base, no hace referencia a especificaciones o estándares para el trazo de una chaqueta tipo sastre o con cuello sastre, debe #[b tener en cuenta que cada prenda, diseño, referencia, dibujo plano, ficha técnica o imagen tiene unas referencias específicas], las cuales van de la mano con todos los conceptos de diseño o requerimientos que se entregan para producción. 
+      
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema3/img24.svg', alt='')
+
+    .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+
+    Separador  
+    #t_3_5.titulo-segundo.color-primario
+      h2 3.5 Trazo de manga y cabezas de manga
+
+    p Cuando se habla de manga, básicamente se entiende o identifica como una pieza circular que cubre el brazo; sin embargo, existen diferentes tipos de puntos para tener en cuenta:
+
+
+
+
 </template>
 
 <script>

@@ -9,12 +9,12 @@
         p Para comenzar con el trazado de patrones desde los básicos en prendas inferiores, es crucial establecer la línea de aplomo o línea base de construcción, que se corresponde con la altura de cadera o tiro. Del mismo modo, al trazar patrones desde los básicos en prendas superiores, la línea de aplomo o línea base de construcción se sitúa en la línea de sisa o la altura de cadera.
         p Es importante tener en cuenta que las medidas presentadas en los videos son ejemplos y orientaciones únicamente. Cada diseñador puede tener referencias distintas, dependiendo del tipo de trazado, elementos utilizados e incluso del tipo de herramienta de dibujo. Sin embargo, siempre es fundamental hacer referencia a las medidas del cuadro de tallas y a las fórmulas pertinentes.
         p Es esencial también reconocer que en el ámbito comercial se utilizan diversos nombres para describir las siluetas y formas de las prendas. No obstante, en este proceso de aprendizaje nos enfocaremos en aspectos funcionales sin entrar en especificaciones de nombres comerciales.
-      .col-sm-12.col-lg-3
+      .col-sm-12.col-lg-3.col-8
         img(src='@/assets/curso/temas/tema1/img01.svg', alt='')
     
     .cajon.color-acento-contenido.p-4.mb-5
       .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-        .col-lg-1.p-2
+        .col-lg-1.p-2.col-6
           img(src='@/assets/curso/temas/tema1/img02.svg', alt='')
         .col-lg-11
           p Al tener en cuenta los términos de los estudiosos se puede determinar que satisfacción, cliente, necesidades, mercado y expectativas son las palabras comunes que engloban el concepto para concluir que la calidad es el nivel de satisfacción del cliente, cumpliendo con los requisitos, es decir, con las necesidades y expectativas del cliente.
@@ -28,18 +28,19 @@
       p Para la implementación y modificación de básicos es importante tener claridad de cada uno de los conceptos de patronaje como medidas, pasos, elementos y vocabulario técnico, lo cual se irá implementando en el desarrollo de los trazos, moldes o planos, lo que a futuro permitirá realizar patrones y producción de prendas de vestir.
       p En este punto, para la implementación de los básicos se debe tomar como referencia los pasos del patronaje de acuerdo con la metodología SENA.
     .row.justify-content-center(data-aos="zoom-in-rigth")
-      img(src='@/assets/curso/temas/tema1/img03.svg', alt='')
+      .col-lg-12.col-12
+        img(src='@/assets/curso/temas/tema1/img03.svg', alt='')
 
     Separador  
     #t_1_1.titulo-segundo.color-primario
       h2 1.1 Cómo hacer un patrón a escala
-    
+      
     .row.justify-content-center(data-aos="zoom-in-left")
       p En términos de patronaje se puede trabajar a menor escala, cuando se habla de escala consiste en tomar un molde de cualquier línea y trazarlo en un tamaño menor o mayor, en este caso para la optimización de recursos se sugiere trabajar en escalas más pequeñas, si bien cuando se inicia a trabajar o se está teniendo una inmersión en patronaje se sugiere trabajar a escala real, en algunos casos por optimización se facilita trabajar en tamaños más pequeños; sin embargo, es importante aclarar que lo ideal o la sugerencia siempre será trabajar a escala real.
     
     .cajon.color-acento-contenido.p-4.mb-5
       .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-        .col-lg-1
+        .col-lg-1.col-6
           img(src='@/assets/curso/temas/tema1/img04.svg', alt='')
         .col-lg-9
           p Las escalas más comunes en patronaje son a mitad (1/2) de escala o cuarto (1/4) de escala, en el mercado se encuentran juegos de reglas con el tamaño o las escalas referenciadas; pero, no solo se puede trabajar en esas dos escalas, es decir, en algunos casos se trabaja a quinta (1/5) o a sexta (1/6) escala.
@@ -63,15 +64,15 @@
       .col-lg-7
         h3 Base superior – Base inferior de falda y pantalón
         p En la metodología SENA estos son los únicos puntos de partida para hacer cualquier análisis, trazo, molde o plano de una prenda. Los básicos deben estar separados (delantero – posterior) y sin ningún tipo de alteración, preferiblemente en un material resistente como el cartón cartulina, cartulina o acetato.
-      .col-lg-3
+      .col-lg-3.col-8
         img(src='@/assets/curso/temas/tema1/img05.svg', alt='')
-
+    .py-2
     #7.subtitulo.mb-4(data-aos="fade")
       h3.mb-0 2. Interpretación:
     p Para la interpretación se deben tener en cuenta varios puntos de referencia:
 
     .bgazul 
-      SlyderA(tipo="a")
+      SlyderA(tipo="a").p-4
         .row.justify-content-center(data-aos="fade-left")
           .col-md-10
             p #[b Desahogos:]  Los desahogos se trabajan por contornos, largos y anchos. Las medidas anatómicas corresponden a la base o básico, este punto de partida no tiene incrementos u holguras para el desarrollo de prendas, es decir, que dependiendo de la funcionabilidad de la prenda o del diseño se debe incrementar medidas que funcionan como holguras o desahogos. 
@@ -272,8 +273,8 @@
             p Dentro de las variaciones más comunes encontradas en mangas se identifican los puños y las portañuelas, en infantil y masculino suelen ser utilizadas en el análisis o la interpretación de prendas superiores por camisas, chaquetas, vestidos y demás.
     .py-4
     .row.justify-content-center(data-aos="fade-left")
-      .col-lg-1.col-4
-        img(src='@/assets/curso/temas/tema1/img23.svg', alt='') 
+      .col-lg-1.col-6
+        img(src='@/assets/curso/temas/tema1/img23.svg', alt='').py-4
       .col-lg-10
         p Al dar continuidad al chaleco anteriormente trazado y con el fin de hacer el análisis de los diferentes tipos de modificaciones en manga se debe tomar como referencia las medidas y el desarrollo de la primera parte del plano #[b “chaleco”] y las cabezas de manga, es decir, que #[b siempre en este punto las mangas y modificaciones hacen parte de los complementos] en los pasos del patronaje.
     .py-4
@@ -378,7 +379,7 @@
         | la señalización del plano y el molde debe ir de acuerdo con las especificaciones de diseño; la señalización incluye nombre del diseño o referencia, el hilo de tela, piquetes, bolsillos, nombre de la pieza, cantidad a cortar; la señalización es la lectura a nivel general del molde.
     
     .row.justify-content-center(data-aos="fade-left")
-      .col-lg-6
+      .col-lg-6.col-8
         img(src='@/assets/curso/temas/tema1/img34.svg', alt='')
     .py-4
     figure.mb-5(data-aos="zoom-in-left")
@@ -481,7 +482,12 @@
         img(src='@/assets/curso/temas/tema1/img44.svg', alt='')
     p.py-4 Dentro del desarrollo de pantalón se encontrarán especificaciones como partes que conforman un bolsillo, como:
     .py-2
-  
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-9
+        img(src='@/assets/curso/temas/tema1/movil.svg', alt='')
+    
+    .py-4
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-7
         ul.lista-ul--color.lista-ul--separador 
@@ -489,8 +495,8 @@
             i.fas.fa-circle 
             span.txtlila #[b Aletilla y aletillón]
         p El sistema de ajuste en los pantalones infantiles más recomendado es el encauchado, #[b se emplea en pretinas y botas], en el caso de pretinas puede aplicarse en todo el contorno de la cintura, en el posterior o solo en los costados, generando seguridad; pero se debe tener en cuenta que se equilibre con el confort y facilite  gran movilidad del usuario, por tanto, que no genere incomodidad o afecte la piel del infante.
-        img(src='@/assets/curso/temas/tema1/img45.svg', alt='')
-      .col-lg-5
+        img(src='@/assets/curso/temas/tema1/img45.svg', alt='').py-3
+      .col-lg-5.col-7
         img(src='@/assets/curso/temas/tema1/img46.svg', alt='')
 
     .py-4
@@ -506,9 +512,9 @@
     p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando. Para el desarrollo del trazo de prendas inferiores - pantalón se trabajarán dos imágenes de referencia, una bajo los requerimientos de una niña y otra bajo los requerimientos de un niño, partiendo desde el mismo básico. Este tipo de prenda en los infantes puede aplicarse no solo en uso casual, también se desarrollan en prendas para dormir.
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-4
-        img(src='@/assets/curso/temas/tema1/img46.png', alt='')
+        img(src='@/assets/curso/temas/tema1/img46.png', alt='').py-4
       .col-lg-4
-        img(src='@/assets/curso/temas/tema1/img47.png', alt='')
+        img(src='@/assets/curso/temas/tema1/img47.png', alt='').py-4
     
     .py-4
     .row.justify-content-center(data-aos="fade-left").py-4
@@ -517,7 +523,7 @@
         p En el proceso de elaboración de los patrones, se incorporarán elementos como la horcajadura, que proporciona la holgura necesaria al unir los básicos superiores e inferiores. Esta adición de espacio es funcional, es decir, es esencial para que la prenda se ajuste al cuerpo sin inconvenientes y cumpla su función adecuadamente.
         p Es importante tener en cuenta que en el ámbito comercial se emplean diversos términos para describir los detalles y complementos de las prendas. Sin embargo, en este caso nos centraremos en aspectos funcionales sin entrar en especificaciones de nombres comerciales.
         p Debe tener en cuenta que a nivel comercial #[b existen diversos nombres para cada uno de los detalles y complementos de las prendas;] sin embargo, en este caso se trabajará desde la parte funcional sin especificar los nombres comerciales.
-      .col-lg-4
+      .col-lg-4.col-8
         img(src='@/assets/curso/temas/tema1/img48.svg', alt='')
     
     .py-4
@@ -533,9 +539,9 @@
     p Para apropiar todos los conceptos y pasos trabajados en el trazo de patrones se debe ir analizando prendas desde imagen, dibujo plano, ficha técnica o muestra física, con el fin de tener referencias visuales de lo que se va trabajando. Para el desarrollo del trazo de prendas superiores – #[b vestido o bata se trabajará un dibujo plano de referencia, bajo los requerimientos de una niña], partiendo desde el básico.
     .py-4
     .row.justify-content-center(data-aos="fade-left").py-4
-      .col-lg-1
-        img(src='@/assets/curso/temas/tema1/img49.svg', alt='')
-      .col-lg-10
+      .col-lg-1.col-6
+        img(src='@/assets/curso/temas/tema1/img49.svg', alt='').py-4
+      .col-lg-10.py-4
         p El vestido infantil #[b se caracteriza por los vuelos, recogidos y prenses] que contemplan en los diseños, así mismo, la #[b aplicación de complementos como golas y el uso de insumos como encajes, cintas, además de sistemas de ajuste] como encauchados. Por otra parte, han ido adoptando características de prendas femeninas para producir el mismo vestido para ambas líneas, lo cual es importante considerar en el momento del desarrollo del patronaje.
       .col-lg-6
         img.py-2(src='@/assets/curso/temas/tema1/img50.png', alt='La imagen describe el dibujo técnico de un vestido sin mangas visto desde el frente y la espalda. El diseño incluye un cuello redondo y un corpiño ajustado que se ensancha hacia la falda con pliegues o paneles para darle vuelo. En la parte trasera, se observa una línea central que probablemente indica la posición de una cremallera o cierre. Este tipo de dibujo es típico en la industria de la moda para ilustrar la estructura y los detalles de una prenda antes de confeccionarla. ')

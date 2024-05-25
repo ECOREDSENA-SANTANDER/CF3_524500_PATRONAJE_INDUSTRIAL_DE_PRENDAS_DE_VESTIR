@@ -18,7 +18,7 @@
     .py-3
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
-        .border-lila
+        .border-lila.p-4
           .row.justify-content-center.align-items-center(data-aos="fade-left")
             .col-lg-4
               ul.lista-ul--color.lista-ul--separador
@@ -48,8 +48,8 @@
                 li 
                   i
                   | #[b 5.  Despiece]
-          
-            .col-lg-6
+            
+            .col-lg-6.col-8
               img.desborde2(src='@/assets/curso/temas/tema3/img01.svg', alt='')  
 
     Separador  
@@ -173,7 +173,7 @@
         p Para desarrollar los planos del manual de patronaje del SENA, es esencial iniciar desde los fundamentos establecidos en los componentes previos. Este enfoque facilita la comprensión del análisis del manual, todo ello dentro del marco de la metodología del SENA. A lo largo del proceso, se proporcionarán guías o ejemplos que detallan la implementación de cada paso del patronaje.
         p En la página 39 del manual, se presenta un plano de referencia para el trazado de una blusa con almilla y cuello camisero. Este plano incluye elementos como desahogos, traslado de pinza correctiva de talle, sistema de cierre y complementos (almillas, bolsillos de parche). Es importante destacar que este plano sirve únicamente como una guía o referencia sobre cómo implementar la base. No proporciona especificaciones ni estándares para el trazado de una blusa en particular.
         p Es fundamental tener en cuenta que cada prenda, diseño, referencia, dibujo plano, ficha técnica o imagen cuenta con referencias específicas. Estas referencias están alineadas con los conceptos de diseño y los requisitos necesarios para la producción.
-      .col-lg-4
+      .col-lg-4.col-8
         img(src='@/assets/curso/temas/tema3/img08.svg', alt='')
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
@@ -181,8 +181,8 @@
         img(src='@/assets/curso/temas/tema3/img09.svg', alt='La imagen muestra un patrón detallado para la confección de una “BLUSA CON ALMILLA CON CUELLO CAMISERO”. El patrón incluye varias piezas que componen la blusa, con medidas específicas en centímetros que guían el corte de cada sección de la prenda. Se observan las piezas del cuello, la almilla (que puede referirse a una tapa donde van los botones), y otras partes del cuerpo de la blusa. Hay líneas marcadas para indicar dónde se deben hacer pliegues o dobladillos, y se destacan las distintas partes con líneas sólidas y punteadas. ')
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
-      .col-lg-3
-        img(src='@/assets/curso/temas/tema3/img10.svg', alt='')
+      .col-lg-3.col-8
+        img(src='@/assets/curso/temas/tema3/img10.svg', alt='').py-4
       .col-lg-8
         p Con el fin de referenciar y contextualizar la implementación, recuerde que, aunque en el manual se identifica un plano separado se sugiere trabajar siempre en plano unido, con el fin de validar medidas como largos o proporciones referenciados en el plano.
         p Para el trazo del plano desde los básicos se debe iniciar trazando una línea de referencia, en el caso de las bases superiores se traza una línea de manera horizontal en el papel, sobre la cual quedará alineados o aplomados desde la línea base de construcción; en prendas superiores la línea de aplome o línea base será la línea de profundidad de sisa.
@@ -281,8 +281,8 @@
 
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
-      .col-lg-4
-        img(src='@/assets/curso/temas/tema3/img23.svg', alt='')
+      .col-lg-4.col-8
+        img(src='@/assets/curso/temas/tema3/img23.svg', alt='').py-4
       .col-lg-8
         p Para el desarrollo de los planos del manual de patronaje #[b SENA] siempre se debe partir de las bases o básicos que se han desarrollado en componentes anteriores, con el fin de apropiar el análisis del manual, #[b todo se irá desarrollando dentro del marco de la metodología SENA], en la cual se irán encontrando guías o ejemplos con la implementación de cada uno de los pasos del patronaje.
         p Para el trazo de chaqueta cuello sastre en la página 40 del manual encontrará un plano de referencia, en el plano #[b identificará elementos como desahogos, traslado de pinza correctiva de talle, sistema de ajuste (corte francés) sistema de cierre], este plano es solo una guía o una referencia de cómo se puede implementar la base, no hace referencia a especificaciones o estándares para el trazo de una chaqueta tipo sastre o con cuello sastre, debe #[b tener en cuenta que cada prenda, diseño, referencia, dibujo plano, ficha técnica o imagen tiene unas referencias específicas], las cuales van de la mano con todos los conceptos de diseño o requerimientos que se entregan para producción. 
@@ -333,7 +333,211 @@
       .col-lg-6
         img(src='@/assets/curso/temas/tema3/img25.svg', alt='')
 
+    p #[b Cabeza de manga por cuadro de tallas:]  las cabezas de manga de los cuadros de tallas suelen ser categorizadas para prendas casuales, la medida se identifica en el cuadro de tallas, este tipo de cabeza de manga es estandarizada, no se tiene en cuenta el comportamiento sobre el cuerpo y el tipo de prenda. 
 
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-6
+        img(src='@/assets/curso/temas/tema3/img26.png', alt='')
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-5
+        p Fuente: Manual_patronaje_basico_interpretacion_disenos.PDF - Sena
+    
+    p #[b Cabeza de manga por medida deducida:]   las cabezas de manga por medida deducida salen según el tipo de plano y línea que se trabaje, es decir, que cada vez que se esté trazando un plano, sobre ese plano con la medida de recorrido de sisa delantera y sisa posterior se identifica la cabeza de manga, la sumatoria de esas dos medidas son divididas de acuerdo con el tipo de prenda para identificar la cabeza de manga. 
+
+    .py-2
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-8
+        .cajon.color-primario.p-4.mb-4
+          h5.text-center Cabeza de manga deportiva = sisa delantera + sisa posterior / 5
+          hr.hblanco
+          h5.text-center Cabeza de manga casual = sisa delantera + sisa posterior / 4
+          hr.hblanco 
+          h5.text-center Cabeza de manga sastre o formal = sisa delantera + sisa posterior / 3
+
+    .py-3
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-6
+        p #[b Cabeza de manga estandarizada:]  las cabezas de manga estandarizadas suelen ser medidas que, sin explicación alguna, son entregadas para el desarrollo de las prendas.
+        p Para el desarrollo, trazo o marcación de cabeza de manga existen infinidad de formas, fórmulas o metodologías; sin embargo, la clasificación anterior hace referencia a lo que se trabaja en el manual, en cualquier línea. Sin importar el tipo de línea es importante que tenga en cuenta siempre la lógica del comportamiento de las cabezas de manga, según tipo de prenda.
+        p En la página N°26 del manual (Línea femenina) se identifica otro tipo de forma para sacar o deducir la altura de cabeza de manga. Imagen 3 IMAGEN PENDIENTE.
+      .col-lg-6
+        p.py-2 En la página N°44 del manual (Línea femenina) se identifica otro tipo de forma para sacar o deducir la altura de cabeza de manga. Imagen 4 IMAGEN PENDIENTE
+        p En la página N°67 y N°70 del manual (Línea masculina) se identifica otro tipo de forma para sacar o deducir la altura de cabeza de manga. Imagen 5 y 6 IMAGEN PENDIENTE
+        p En la página N°86 del manual (Línea infantil) se identifica otro tipo de forma para sacar o deducir la altura de cabeza de manga. Imagen 7 IMAGEN PENDIENTE
+    .py-3
+    p Cada una de estas fórmulas corresponden a medidas deducidas, quiere decir que siempre que usted vaya a trazar una cabeza de manga, lo primero que debe analizar es el comportamiento y la funcionalidad sobre el cuerpo, lo importante es que el comportamiento de la cabeza de manga sobre el cuerpo sea equivalente al diseño o prenda que se va a trabajar.
+    h5 Trazo de cabeza de manga:
+    p Para poder trabajar los diferentes tipos de trazos y curvas de cabezas de manga se sugiere tomar los planos de blusa con almilla – página 39 y chaqueta con cuello sastre – página 40, con el fin de analizar y trabajar diferentes formas de sacar o trazar cabeza de manga; para poder trazar las cabezas de manga se sugiere tener las siguientes medidas:
+    .py-2
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-8
+        .cajon.color-primario.p-4.mb-4
+          h5.text-center Recorrido sisa delantera (medidas que salen del plano)
+          hr.hblanco
+          h5.text-center Recorrida sisa posterior (medidas que salen del plano)
+          hr.hblanco 
+          h5.text-center Tipo de cabeza de manga
+          hr.hblanco 
+          h5.text-center Largo de manga
+
+    .py-2
+    p En el desarrollo de curvas y trazos en las cabezas de manga existen varias formas de trazarlas, las implementadas y guiadas en el video hacen referencia a un acercamiento general de todos los trazos del manual.
+    .py-2
+    h5 Trazo de manga:
+    p Debe tener en cuenta que el trazo de manga y las medidas de las sisas dependen del trazo de la prenda o diseño a trabajar, es decir, que siempre en este punto las mangas hacen parte de los complementos en los pasos del patronaje.
+
+
+    .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+    
+    Separador  
+    #t_3_5_1.titulo-segundo.color-primario
+      h2 3.5.1 Interpretación de mangas
+
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-12
+        p Para profundizar en los conceptos y detalles trabajados en el trazo de mangas se hará el análisis de diferentes diseños desde dibujo plano e imagen, con el fin de tener #[b referencias visuales de lo que se va trabajando, se tendrán varias imágenes de  referencia, en este punto y con la firme intención de afianzar cada vez más el conocimiento], se implementará una serie de cortes, traslados y aumentos que irán generando volúmenes o estructuras diferentes sobre el cuerpo, todo partiendo desde el desarrollo del trazo base de manga.
+        p El resultado de la interpretación de mangas es la combinación de varias características, las cuales como patronista debe analizar para plantear la mejor opción para desarrollar el patronaje de la manga según el diseño planteado, por ejemplo, #[b una manga puede presentar una recogido en la cabeza de manga, usted debe plantear y desarrollar el recogido], especificando la cantidad de medida a recoger y desde dónde inicia y termina el recogido.
+        p La finalidad del ejercicio es poder experimentar de qué manera se puede implementar el mismo punto de partida (manga base) hacia diferentes tipos de diseño, bajo una misma tipología. 
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema3/img27.svg', alt='La imagen muestra seis representaciones de blusas, combinando ilustraciones de diseño y fotografías de productos reales. Las tres imágenes superiores son dibujos técnicos que detallan diferentes estilos de blusas con botones: una con un diseño largo y sin bolsillos, otra con un diseño clásico y otra con bolsillos en el pecho y detalles contrastantes. Las tres imágenes inferiores son fotografías de blusas: una de mezclilla con mangas abullonadas, otra a rayas con un diseño moderno y cintura ajustada, y una última en color beige con un dobladillo fluido y capas. Este conjunto muestra una variedad de estilos y detalles en las blusas, ilustrando tanto los aspectos técnicos del diseño como su aplicación en prendas confeccionadas.')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+
+    Separador  
+    #t_3_6.titulo-segundo.color-primario
+      h2 3.6 Trazo de falda y modificación de básicos de falda
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-12
+        p Para profundizar en los conceptos y detalles trabajados en el trazo de faldas #[b se hará el análisis de diferentes diseños desde imagen, con el fin de tener referencias visuales de lo que se va trabajando], se tendrán varias imágenes de referencia, en este punto y con la firme intención de afianzar cada vez más el conocimiento, se hará o trabajará todo sobre análisis de proporciones.
+        p Las proporciones son medidas que se obtienen de una imagen, muestra física, ficha técnica, dibujo plano o diseño, que al hacer un paralelo con los básicos o moldes bases de la línea, silueta o talla que se esté trabajando permite obtener medidas o dimensiones de referencia para el desarrollo o trazo del molde correspondiente al diseño, si bien en ocasiones anteriores se han desarrollado ejercicios sobre análisis de proporciones, #[b es importante resaltar que las medidas y el análisis de proporciones varía de acuerdo al tamaño, diseño, impresión, dibujo, básico y sistema de medida], las referencias implementadas son solo ejemplos detallados de cómo y qué manera se debe implementar el desarrollo.
+
+
+
+    .row.justify-content-center(data-aos="fade-left") 
+      .col-lg-6
+        .cajon.color-primario.p-4.mb-4
+          h5 La finalidad del ejercicio es poder comparar de qué manera se puede implementar el básico llevándolo hacia diferentes tipos de diseño, bajo una misma tipología.
+    
+    .row.justify-content-center(data-aos="fade-left").p-4
+      .col-lg-9
+        img(src='@/assets/curso/temas/tema3/img28.svg', alt='')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video 
+    
+    p En este tipo de prendas es importante tener en cuenta el tipo de pretina sea acorde al diseño, así mismo, su ancho con el fin de mejorar la horma en la figura femenina.
+
+
+    Separador  
+    #t_3_6_1.titulo-segundo.color-primario
+      h2 3.6.1 Trazo de faldas rotondas
+
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-2
+        img.imgsize(src='@/assets/curso/temas/tema3/img29.svg', alt='')
+      .col-lg-9
+        p Para profundizar en los conceptos y detalles trabajados en el trazo de faldas se hará el análisis de diferentes diseños desde imagen, con el fin de tener referencias visuales de lo que se va trabajando, #[b se tendrán varias imágenes de referencia, en este punto y con la firme intención de afianzar cada vez más el conocimiento], se implementará una serie de términos técnicos que irán generando diferentes volúmenes o estructuras sobre el cuerpo.
+        p El patronista debe interpretar el vuelo requerido del diseño de la faldas rotondas y a su vez la tela a utilizar, con el fin de que se desarrolle de manera correcta, y no presenten inconvenientes en el proceso de corte. #[b La finalidad del ejercicio es poder experimentar de qué manera se puede implementar el mismo punto de partida] (falda) hacia diferentes tipos de resultados, bajo una misma tipología.
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-9
+        img(src='@/assets/curso/temas/tema3/img30.svg', alt='')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+
+    Separador  
+    #t_3_7.titulo-segundo.color-primario
+      h2 3.7 Trazo de vestido de noche
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-8
+        p Para profundizar en los conceptos y detalles trabajados en el trazo de prendas superiores e inferiores se hará #[b el análisis de diferentes diseños desde imagen y plano, con el fin de tener referencias visuales de lo que se va trabajando, se tendrán varios puntos]. El desarrollo de diseños tiene como objetivo principal afianzar cada vez más el conocimiento bajo el análisis de proporciones y requerimientos de las prendas.
+        p Las proporciones son medidas que se obtienen de una imagen, muestra física, ficha técnica, dibujo plano o diseño, que al hacer un paralelo con los básicos o moldes bases de la línea, silueta o talla que se esté trabajando, permite obtener medidas o dimensiones de referencia para el desarrollo o trazo del molde correspondiente al diseño, si bien en ocasiones anteriores se han desarrollado ejercicios sobre análisis de proporciones, #[b es importante resaltar que las medidas y el análisis de proporciones varían de acuerdo al tamaño, diseño, impresión, dibujo, básico y sistema de medida], las referencias implementadas son solo ejemplos detallados de cómo y de qué manera se debe implementar el desarrollo.
+      .col-lg-4.col-8
+        img(src='@/assets/curso/temas/tema3/img31.svg', alt='')
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-4.col-8
+        img(src='@/assets/curso/temas/tema3/img32.svg', alt='').py-4
+      .col-lg-8
+        p El vestido, prenda fundamental para el uso en ocasiones tanto casuales como formales, en este caso, #[b se hace hincapié en los vestidos de noche], los cuales se reconocen como requisito en normas de etiqueta de vestir, en los eventos de la mencionada jornada. #[b Los vestidos resaltan en mayor medida las curvas de las féminas siempre y cuando guarde coherencia con la elegancia de la prenda, que es su rasgo primordial]. Los sistemas de ajuste como cortes y pinzas, amplitudes, además de sistemas de cierre deben coordinar con el diseño presentado y sus proporciones. #[b Los largos de los vestidos de noche merecen atención] en el desarrollo del patronaje sobre todo en lo relacionado con las especificaciones en el corte.
+        .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+          .col-lg-8
+            .cajon.color-primario.p-4.mb-4
+              p La finalidad del ejercicio es poder aplicar todo el conocimiento y manejo de conceptos adquiridos hasta el momento, llevando la implementación de los básicos hacia diferentes tipos de prendas.
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema3/img33.svg', alt='')
+      .py-3
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema3/img34.svg', alt='')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+
+    Separador  
+    #t_3_8.titulo-segundo.color-primario
+      h2 3.8 Interpretación de prendas inferiores 
+    
+    p Para profundizar en los conceptos y detalles trabajados en el trazo de pantalón se hará el análisis de un diseño desde imagen, con el fin de tener una referencia visual de lo que se va trabajando. #[b El desarrollo de diseños tiene como objetivo principal afianzar cada vez más el conocimiento bajo el análisis de proporciones y requerimientos de las prendas.]
+    p Las proporciones son medidas que se obtienen de una imagen, muestra física, ficha técnica, dibujo plano o diseño, que al hacer un paralelo con los básicos o moldes bases de la línea, silueta o talla que se esté trabajando, permite obtener medidas o dimensiones de referencia para el desarrollo o trazo del molde correspondiente al diseño, si bien en ocasiones anteriores se han desarrollado ejercicios sobre análisis de proporciones, #[b es importante resaltar que las medidas y el análisis de proporciones varían de acuerdo al tamaño, diseño, impresión, dibujo, básico y sistema de medida, las referencias implementadas] son solo ejemplos detallados de cómo y de qué manera se debe implementar el desarrollo.
+    
+    .row.justify-content-center(data-aos="fade-left").py-4
+      .col-lg-8
+        img(src='@/assets/curso/temas/tema3/img35.png', alt='')
+        .py-3
+        p.py-4 Cabe examinar ahora, conforme el desarrollo de los diseños, la interpretación para dar a la prenda confort y ajuste, #[b cualidades importantes a la hora de desarrollar el patronaje en partes como la cintura y cadera]. En el caso de la cintura se realizan moldes de pretinas anatómicas que ajusten esta parte del cuerpo. En el caso de la cadera, en el lado del tiro posterior se han desarrollado técnicas para mejorar la horma de la prenda.
+        .row.justify-content-center.align-items-center(data-aos="fade-left")
+          .col-lg-7
+            .cajon.color-primario.p-4.mb-4
+              p La finalidad del ejercicio es poder aplicar todo el conocimiento y manejo de conceptos adquiridos hasta el momento, llevando la implementación de los básicos hacia diferentes tipos de prendas.
+          .col-lg-4.col-6
+            img(src='@/assets/curso/temas/tema3/img36.svg', alt='').py-4
+      .col-lg-4.col-8
+        img(src='@/assets/curso/temas/tema3/img37.png', alt='')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+
+    Separador  
+    #t_3_9.titulo-segundo.color-primario
+      h2 3.9 Interpretación de overoles
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-left").py-4
+      .col-lg-8
+        p #[b Los overoles o también llamados por su uso casual para las mujeres como enterizos han cobrado especial desarrollo en la línea femenina], creando diseños multifuncionales. #[b Una de las medidas de especial atención por el patronista es el tiro], el cual debe verificarse conforme a la metodología planteada y teniendo en cuenta el material a usar. El patronista debe analizar la horma necesaria para que corresponda con el diseño planteado, aplicando los desarrollos de las piezas en amplitudes o ajustes dado el caso. 
+      .col-lg-4.col-8
+        img(src='@/assets/curso/temas/tema3/img38.png', alt='')
+
+      .py-4
+      figure.mb-5(data-aos="zoom-in-left")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Zlc9gtFlJLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+     
 
 </template>
 
